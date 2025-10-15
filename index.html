@@ -19,6 +19,140 @@
 
 <body>
   <!-- ===header-section-start=== -->
+  <header class="bg-light   border-bottom">
+    <div class="container-fluid px-5 d-lg-block d-none">
+      <!-- Top row: Contact and actions -->
+      <div class="row align-items-center py-2">
+        <div class="col-md-4 col-12 d-flex align-items-center mb-2 mb-md-0">
+          <span class="me-2">
+            <i class="bi bi-envelope"></i>
+          </span>
+          <span class="me-3">info@ompackersindia.com</span>
+          <span class="me-2">
+            <i class="bi bi-person"></i>
+          </span>
+          <span class="me-3">India</span>
+        </div>
+        <div class="col-md-8 col-12 text-md-end d-flex justify-content-md-end  align-items-center flex-wrap">
+          <a href="#" class="btn btn-success me-2 mb-2 header-btn">₹ Pay Online !</a>
+          <a href="#" class="btn btn-info text-white me-2 mb-2 header-btn">Select Nearest Branch</a>
+          <span class="me-2 mb-2">
+            <i class="bi bi-telephone"></i>
+          </span>
+          <span class="fw-bold me-3 mb-2">9070201040</span>
+        </div>
+      </div>
+      <!-- Nav links -->
+      <div class="row align-items-center">
+        <div class="col d-flex flex-wrap align-items-center justify-content-center header-second-link">
+          <a href="#" class="me-3">Beware of Online Frauds</a>
+          <a href="#" class="me-3 ">Branch Address</a>
+          <a href="#" class="me-3">Request a Quote</a>
+          <a class="me-3">India Helpline +91 9070201040</a>
+          <a href="#" class="me-3">Become a Branch Partner</a>
+          <a class="text-danger">* Since <strong>2007</strong> at your service *</a>
+        </div>
+      </div>
+    </div>
+    <!-- Main branding/logo row -->
+    <div class="container-fluid bg-white">
+      <div class="row mt-2 align-items-center px-2">
+        <div class="col-lg-6 col-8 text-Start  mb-2 mb-md-0">
+          <img src="assets/images/logo1.png" alt="Om Packers Logo" class="" style="max-height:70px;">
+        </div>
+
+        <div class="col-lg-6 col-4 d-flex align-items-center justify-content-end">
+          <a href="#" class="btn btn-danger px-4 py-2 d-lg-block d-none">Request a Quote</a>
+          <span class="ms-3 search-box-outer d-lg-block d-none">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="ms-2 menu-bar" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </div>
+      <!-- Menu Overlay Section -->
+      <div id="menuOverlay"
+        class="position-fixed top-0 start-0 w-100 h-100 d-none align-items-center justify-content-center"
+        style="z-index: 1050; background: rgba(0,0,0,0.4);">
+        <div class="container">
+          <div class="row">
+            <button type="button" class="btn btn-link text-end  mt-4 me-4 fs-4 text-white" onclick="closeMenu()">
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-11">
+              <div class="Menu-Section d-flex flex-wrap justify-content-between">
+                <!-- Close Button -->
+
+                <div class="row w-100">
+                  <!-- Left Column -->
+                  <div class="col-md-3 mb-4">
+                    <h3 class="fw-bold mb-4">Home</h3>
+                    <h4 class="fw-bold mb-4">Contact Us</h4>
+                    <h4 class="fw-bold mb-3"><i class="bi bi-search"></i> Search</h4>
+                  </div>
+                  <!-- Company Column -->
+                  <div class="col-md-3 mb-4">
+                    <h3 class="fw-bold mb-3">Company <i class="bi bi-chevron-down"></i></h3>
+                    <ul class="list-unstyled">
+                      <li>About Us</li>
+                      <li>Mission and Vision</li>
+                      <li>Why Choose Us</li>
+                      <li>IBA Approved Packers</li>
+                      <li>FAQ</li>
+                      <li>Awards and Achievements</li>
+                      <li>Careers</li>
+                      <li>Testimonials</li>
+                    </ul>
+                  </div>
+                  <!-- Services Column -->
+                  <div class="col-md-3 mb-4">
+                    <h3 class="fw-bold mb-3">Services <i class="bi bi-chevron-down"></i></h3>
+                    <ul class="list-unstyled">
+                      <li>Home Shifting Services</li>
+                      <li>Office Shifting Services</li>
+                      <li>Car Transportation Services</li>
+                      <li>Courier & Cargo Services</li>
+                      <li>Luggage Delivery</li>
+                      <li>Goods Insurance</li>
+                      <li>IBA Approved Transporters</li>
+                    </ul>
+                  </div>
+                  <!-- Activities Column -->
+                  <div class="col-md-3 mb-4">
+                    <h3 class="fw-bold mb-3">Activities <i class="bi bi-chevron-down"></i></h3>
+                    <ul class="list-unstyled">
+                      <li>Our Blog</li>
+                      <li>Pay Online</li>
+                      <li>Track your Shipment</li>
+                      <li>Become a Partner</li>
+                      <li>Moving Tips and Suggestions</li>
+                      <li>Detect Fraud Packers Tips</li>
+                      <li>Shipment Gallery</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                   <div class="mb-3 text-white">Follow Us :</div>
+          <div class="d-flex gap-3 fs-2">
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-telegram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
   <!-- ===header-section-end=== -->
 
   <!-- ===Hero-section-start=== -->
@@ -88,8 +222,7 @@
   <!-- ===Hero-section-end=== -->
   <!-- ===Shifting-Types-section-Start=== -->
   <section class="Why-Choose-Section py-lg-5 pt-0">
-    <section class="Shifting-Types mb-5 wow animate__fadeInUp "  data-wow-duration=".1s"
-              data-wow-delay="0">
+    <section class="Shifting-Types mb-5 wow animate__fadeInUp " data-wow-duration=".1s" data-wow-delay="0">
       <div class="container">
         <div class="row g-4 justify-content-center text-center text-lg-start">
           <!-- Domestic Shifting Card -->
@@ -269,8 +402,8 @@
         </div>
         <div class="col-lg-5 wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
           <video width="300" controls="" loop="" autoplay="" muted="">
-                    <source src="assets/images/verify_iba.mp4" loading="lazy" type="video/mp4">
-                </video>
+            <source src="assets/images/verify_iba.mp4" loading="lazy" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
@@ -358,7 +491,8 @@
           <!-- Services Grid -->
           <div class="row g-3">
             <div class="col-sm-6">
-              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.2s">
                 <div class="About-icon-box text-white">
                   <i class="bi bi-house-door-fill"></i>
                 </div>
@@ -366,7 +500,8 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.3s">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.3s">
                 <div class="About-icon-box text-white">
                   <i class="bi bi-building-fill"></i>
                 </div>
@@ -374,7 +509,8 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.4s">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.4s">
                 <div class="About-icon-box text-white">
                   <i class="bi bi-truck-front-fill"></i>
                 </div>
@@ -382,7 +518,8 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.5s">
                 <div class="About-icon-box text-white">
                   <i class="bi bi-box-seam-fill"></i>
                 </div>
@@ -390,7 +527,8 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.6s">
                 <div class="About-icon-box text-white">
                   <i class="bi bi-suitcase-lg-fill"></i>
                 </div>
@@ -398,7 +536,8 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.7s">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.7s">
                 <div class="About-icon-box text-white">
                   <i class="bi bi-shield-fill-check"></i>
                 </div>
@@ -432,7 +571,7 @@
           </div>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
-     <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
             <div class="state-img-container">
               <img src="assets/images/s-1.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
@@ -453,7 +592,7 @@
           </div>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
-         <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
             <div class="state-img-container">
               <img src="assets/images/s-3.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
@@ -464,7 +603,7 @@
           </div>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
-         <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
             <div class="state-img-container">
               <img src="assets/images/s-4.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
@@ -473,7 +612,7 @@
           </div>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
-         <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
             <div class="state-img-container">
               <img src="assets/images/s-5.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
@@ -491,7 +630,7 @@
           </div>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
-         <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
             <div class="state-img-container">
               <img src="assets/images/s-7.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
@@ -500,7 +639,7 @@
           </div>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
-        <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
             <div class="state-img-container">
               <img src="assets/images/s-8.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
@@ -518,7 +657,7 @@
           </div>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
-         <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.11s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.11s">
             <div class="state-img-container">
               <img src="assets/images/s-10.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
@@ -557,7 +696,8 @@
       </div>
       <div class="row justify-content-center g-4">
         <!-- Step 1 -->
-        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown" data-wow-delay="0.1s">
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.1s">
           <div class="process-card position-relative">
             <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow" alt="Assign us Service" />
             <div class="process-circle position-absolute">01</div>
@@ -568,7 +708,8 @@
           </p>
         </div>
         <!-- Step 2 -->
-        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown" data-wow-delay="0.2s">
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.2s">
           <div class="process-card position-relative">
             <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow"
               alt="Packing and Loading" />
@@ -578,7 +719,8 @@
           <p>We will pack all your goods and load it in our vehicle safely</p>
         </div>
         <!-- Step 3 -->
-     <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown" data-wow-delay="0.3s">
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.3s">
           <div class="process-card position-relative">
             <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow"
               alt="Transportation Service" />
@@ -588,7 +730,8 @@
           <p>Our Vehicle will deliver your goods to your destination</p>
         </div>
         <!-- Step 4 -->
-         <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.4s">
           <div class="process-card position-relative">
             <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow"
               alt="Unloading and Unpacking" />
@@ -604,30 +747,30 @@
   </section>
   <!-- ===Process-section-end=== -->
   <!-- ===Counter-section-Start=== -->
-<section class="Counter-Section py-5">
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row text-center justify-content-center">
-        <!-- Residential Moving -->
-        <div class="col-12 col-md-6 mb-4 mb-md-0">
-          <h1 class="fw-bold text-white counter" data-target="85">0</h1>
-          <h2 class="fw-bold text-white mb-3">Residential Moving</h2>
-          <p class="text-white fs-5">
-            We have completed over 85k Residential Shiftings all over India.
-          </p>
-        </div>
-        <!-- Corporate Moving -->
-        <div class="col-12 col-md-6">
-          <h1 class="fw-bold text-white counter" data-target="50">0</h1>
-          <h2 class="fw-bold text-white mb-3">Corporate Moving</h2>
-          <p class="text-white fs-5">
-            We pride ourself in moving over 50k+ corporate offices and workspaces
-          </p>
+  <section class="Counter-Section py-5">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <!-- Residential Moving -->
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <h1 class="fw-bold text-white counter" data-target="85">0</h1>
+            <h2 class="fw-bold text-white mb-3">Residential Moving</h2>
+            <p class="text-white fs-5">
+              We have completed over 85k Residential Shiftings all over India.
+            </p>
+          </div>
+          <!-- Corporate Moving -->
+          <div class="col-12 col-md-6">
+            <h1 class="fw-bold text-white counter" data-target="50">0</h1>
+            <h2 class="fw-bold text-white mb-3">Corporate Moving</h2>
+            <p class="text-white fs-5">
+              We pride ourself in moving over 50k+ corporate offices and workspaces
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- ===Counter-section-end=== -->
   <!-- ===Featured-section-Start=== -->

@@ -113,7 +113,73 @@ h2 {
   margin-top: 15px;
   text-transform: capitalize;
 }
+/*---Header-Section-Start----*/
 
+
+.header-btn{
+  font-size: 10px;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+header .btn-info {
+  background-color: #19c6d7;
+  border-color: #19c6d7;
+}
+header .btn-success {
+  background-color: #49ad4b;
+  border-color: #49ad4b;
+}
+header .btn-danger {
+  background-color: #e63333;
+  border-color: #e63333;
+}
+.header-second-link a{
+  font-size: 12px;
+  font-weight: 600;
+  color: #000 ;
+
+}
+.search-box-outer i {
+    font-size: 18px;
+    color: #e31e25;
+    cursor: pointer;
+}
+.menu-bar i {
+    font-size: 30px;
+    color: #e31e25;
+    cursor: pointer;
+}
+/* Custom CSS for overlay blur and backdrop */
+#menuOverlay {
+  backdrop-filter: blur(7px);
+  background: rgba(0,0,0,0.6);
+  overflow-y: auto;
+}
+.Menu-Section{
+    background-color: #00000059;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: -1px 5px 13px 2px #00000059;
+
+
+}
+#menuOverlay ul li {
+  font-size: 1rem;
+  margin-bottom: 0.6em;
+  color: #fff;
+}
+
+#menuOverlay h3, #menuOverlay h4 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+/* Hide scroll on overlay open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/*---Header-Section-End----*/
 /*---Hero-Section-Start----*/
 .hero-section {
     position: relative;

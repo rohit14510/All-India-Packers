@@ -1,4 +1,16 @@
-  $(document).ready(function(){
+// JS to open/close menu overlay
+function openMenu() {
+  document.getElementById('menuOverlay').classList.remove('d-none');
+  document.body.classList.add('menu-open');
+}
+
+function closeMenu() {
+  document.getElementById('menuOverlay').classList.add('d-none');
+  document.body.classList.remove('menu-open');
+}
+ 
+ 
+ $(document).ready(function(){
     $('.hero-slider').slick({
       dots: false,
       arrows: false,
