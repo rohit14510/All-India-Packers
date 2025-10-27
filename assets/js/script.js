@@ -126,3 +126,11 @@ $(document).ready(function(){
 
   document.addEventListener('DOMContentLoaded', animateCounters);
 
+
+  const radioButtons = document.querySelectorAll('input[name="paymentOption"]');
+  const mainLabel = document.getElementById('mainNumberLabel');
+  radioButtons.forEach(radio => {
+    radio.addEventListener('change', function() {
+      mainLabel.textContent = this.value + ':';
+    });
+  });
