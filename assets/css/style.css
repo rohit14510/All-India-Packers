@@ -1311,6 +1311,154 @@ body.menu-open {
 
 
 /*---City-Section-End----*/
+/*---Payment-Section-Start----*/
+
+        .payment-online-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .payment-online-section .payment-card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(9, 65, 186, 0.15);
+            overflow: hidden;
+        }
+        
+        .payment-online-section .qr-section {
+            background: linear-gradient(135deg, #0941BA 0%, #072f8f 100%);
+            padding: 50px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 500px;
+        }
+        
+        .payment-online-section .qr-code-box {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        
+        .payment-online-section .qr-code-box img {
+            width: 250px;
+            height: 250px;
+            display: block;
+        }
+        
+        .payment-online-section .qr-title {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .payment-online-section .qr-subtitle {
+            color: rgba(255,255,255,0.9);
+            font-size: 0.95rem;
+            text-align: center;
+        }
+        
+        .payment-online-section .bank-details-section {
+            padding: 50px 40px;
+            background: white;
+        }
+        
+        .payment-online-section .section-title {
+            color: #0941BA;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .payment-online-section .section-title i {
+            margin-right: 10px;
+        }
+        
+        .payment-online-section .detail-group {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .payment-online-section .detail-group:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .payment-online-section .detail-label {
+            color: #666;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+        
+        .payment-online-section .detail-value {
+            color: #333;
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .payment-online-section .copy-btn {
+            background: #0941BA;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .payment-online-section .copy-btn:hover {
+            background: #072f8f;
+            transform: scale(1.05);
+        }
+        
+        .payment-online-section .payment-note {
+            background: #e3eeff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #0941BA;
+        }
+        
+        .payment-online-section .payment-note i {
+            color: #0941BA;
+            margin-right: 8px;
+        }
+        
+        .payment-online-section .payment-note p {
+            margin: 0;
+            color: #333;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 991px) {
+            .payment-online-section .qr-section {
+                min-height: auto;
+                padding: 40px 20px;
+            }
+            
+            .payment-online-section .bank-details-section {
+                padding: 40px 25px;
+            }
+        }
+/*---Payment-Section-End----*/
 
 /*---thank-Section-Start----*/
 

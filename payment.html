@@ -170,13 +170,13 @@
         <div class="container position-relative" style="z-index:2;">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
-                    <h1 class=" text-white  mb-3" style="margin-top:40px;">Payment</h1>
+                    <h1 class=" text-white  mb-3" style="margin-top:40px;">All India Shifting Payment Details</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb d-flex justify-content-center fs-6">
                             <li class="breadcrumb-item"><a href="#" class="text-white text-decoration-none">Home</a>
                             </li>
                             <li><i class="bi bi-chevron-right text-white mx-1 "></i></li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">Payment</li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Payment Details</li>
                         </ol>
                     </nav>
                 </div>
@@ -194,82 +194,118 @@
     <!-- ===About-section-Start=== -->
     <section>
         <div class="container p-4 About-Page-Section">
-           <h4 class="fw-bold mb-3">Pay Now Here !</h4>
-           <h3 class="fw-bold">Mandatory Parameters For Payment</h3>
-           <!-- Payment-Section HTML using Bootstrap -->
-<div class="container Payment-Section my-4">
-<form id="paymentForm" class="row">
-  <div class="col-md-7">
-    <label class="form-label mb-2">Select Option</label>
-    <div class="d-flex mb-4">
-      <div class="form-check me-4">
-        <input class="form-check-input" type="radio" name="paymentOption" id="grOption" value="GR Number" checked>
-        <label class="form-check-label" for="grOption">GR Number</label>
-      </div>
-      <div class="form-check me-4">
-        <input class="form-check-input" type="radio" name="paymentOption" id="billOption" value="Bill Number">
-        <label class="form-check-label" for="billOption">Bill Number</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="paymentOption" id="quotationOption" value="Quotation Number">
-        <label class="form-check-label" for="quotationOption">Quotation Number</label>
-      </div>
-    </div>
-
-    <div class="my-3">
-      <label id="mainNumberLabel" class="form-label">GR Number:</label>
-      <div class="input-group">
-        <span class="input-group-text bg-white border-end-0"><i class="fas fa-hashtag"></i></span>
-        <input type="text" class="form-control border-start-0" name="mainNumber" placeholder="Enter Number">
-      </div>
-    </div>
-    <div class="mb-3">
-      <label class="form-label">Name:</label>
-      <div class="input-group">
-        <span class="input-group-text bg-white border-end-0"><i class="fas fa-user"></i></span>
-        <input type="text" class="form-control border-start-0" name="name" placeholder="Enter Name">
-      </div>
-    </div>
-    <div class="mb-3">
-      <label class="form-label">Email ID:</label>
-      <div class="input-group">
-        <span class="input-group-text bg-white border-end-0"><i class="fas fa-envelope"></i></span>
-        <input type="email" class="form-control border-start-0" name="email" placeholder="Enter Email">
-      </div>
-    </div>
-    <div class="mb-3">
-      <label class="form-label">Mobile No:</label>
-      <div class="input-group">
-        <span class="input-group-text bg-white border-end-0"><i class="fas fa-phone-alt"></i></span>
-        <input type="text" class="form-control border-start-0" name="mobile" placeholder="Enter Mobile No.">
-      </div>
-    </div>
-    <div class="mb-3">
-      <label class="form-label">About Payment:</label>
-      <div class="input-group">
-        <span class="input-group-text bg-white border-end-0"><i class="fas fa-info-circle"></i></span>
-        <input class="form-control border-start-0"  name="aboutPayment" placeholder="Payment Details"></input>
-      </div>
-    </div>
-    <div class="mb-3">
-      <label class="form-label">Amount:</label>
-      <div class="input-group">
-        <span class="input-group-text bg-white border-end-0"><i class="fas fa-rupee-sign"></i></span>
-        <input type="number" class="form-control border-start-0" name="amount" placeholder="Amount">
-      </div>
-    </div>
-    <div class="mb-3">
-      <label class="form-label">City:</label>
-      <div class="input-group">
-        <span class="input-group-text bg-white border-end-0"><i class="fas fa-city "></i></span>
-        <input type="text" class="form-control border-start-0" name="city" placeholder="Enter City">
-      </div>
-    </div>
-    <button type="submit" class="btn btn-apply"><i class="fas fa-paper-plane me-2"></i>Pay Now</button>
-  </div>
-</form>
-
-</div>
+           <div class="main-heading">
+                <h2 class="">
+                    Pay <span style="color: #e31e25">Now Here !</span>
+                </h2>
+                <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+            </div>
+        </div>
+    </section>
+        <section class="payment-online-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card payment-card">
+                        <div class="row g-0">
+                            
+                            <!-- Left Side: QR Scanner -->
+                            <div class="col-lg-5">
+                                <div class="qr-section">
+                                    <h3 class="qr-title">Scan QR Code</h3>
+                                    <p class="qr-subtitle">Use any UPI app to scan and pay</p>
+                                    
+                                    <div class="qr-code-box">
+                                        <!-- Replace with actual QR code image -->
+                                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=upi://pay?pa=yourpayment@upi&pn=AllIndiaShifting&cu=INR" alt="QR Code">
+                                    </div>
+                                    
+                                    <div class="text-center mt-3">
+                                        <i class="bi bi-upc-scan" style="font-size: 2rem; color: white; opacity: 0.8;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Right Side: Bank Details -->
+                            <div class="col-lg-7">
+                                <div class="bank-details-section">
+                                    <h2 class="section-title">
+                                        <i class="bi bi-bank"></i>
+                                        Bank Details
+                                    </h2>
+                                    
+                                    <!-- Bank Name -->
+                                    <div class="detail-group">
+                                        <div class="detail-label">
+                                            <i class="bi bi-building"></i> Bank Name
+                                        </div>
+                                        <div class="detail-value">
+                                            <span>State Bank of India</span>
+                                            <button class="copy-btn" onclick="copyText('State Bank of India')">
+                                                <i class="bi bi-clipboard"></i> Copy
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Account Holder Name -->
+                                    <div class="detail-group">
+                                        <div class="detail-label">
+                                            <i class="bi bi-person"></i> Account Holder Name
+                                        </div>
+                                        <div class="detail-value">
+                                            <span>All India Shifting Services</span>
+                                            <button class="copy-btn" onclick="copyText('All India Shifting Services')">
+                                                <i class="bi bi-clipboard"></i> Copy
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Account Number -->
+                                    <div class="detail-group">
+                                        <div class="detail-label">
+                                            <i class="bi bi-credit-card"></i> Account Number
+                                        </div>
+                                        <div class="detail-value">
+                                            <span>1234567890123456</span>
+                                            <button class="copy-btn" onclick="copyText('1234567890123456')">
+                                                <i class="bi bi-clipboard"></i> Copy
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- IFSC Code -->
+                                    <div class="detail-group">
+                                        <div class="detail-label">
+                                            <i class="bi bi-hash"></i> IFSC Code
+                                        </div>
+                                        <div class="detail-value">
+                                            <span>SBIN0001234</span>
+                                            <button class="copy-btn" onclick="copyText('SBIN0001234')">
+                                                <i class="bi bi-clipboard"></i> Copy
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Payment Note -->
+                                    <div class="payment-note">
+                                        <p>
+                                            <i class="bi bi-info-circle-fill"></i>
+                                            <strong>Note:</strong> After making the payment, please share the transaction screenshot or UTR number with us for confirmation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- ===About-section-end=== -->
@@ -459,6 +495,15 @@
             mobile: true
         });
         window.wow.init();
+    </script>
+      <script>
+        function copyText(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Copied: ' + text);
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
     </script>
     <!-- ===Script-Section=== -->
 </body>
