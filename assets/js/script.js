@@ -60,7 +60,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.testi-slider').slick({
-    slidesToShow: 2,        // Desktop: 3 slides
+    slidesToShow: 1,        // Desktop: 3 slides
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -71,7 +71,7 @@ $(document).ready(function(){
       {
         breakpoint: 1024,   // Tablet and smaller
         settings: {
-          slidesToShow: 2
+          slidesToShow: 1
         }
       },
       {

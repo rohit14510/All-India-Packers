@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>All India Shifting </title>
+</head>
+
+<body>
+    <!-- ===header-section-start=== -->
+    <div class="container-fluid px-lg-5 " style="background-color: #f3f3f3;">
+        <!-- Top row: Contact and actions -->
+        <div class="row align-items-center ">
+            <div class="col-md-9 col-12 d-flex align-items-center justify-content-center flex-wrap  mb-md-0">
+                <div class="small me-2"><span><i class="bi bi-file-earmark-text"></i></span> GST REGD No:
+                    O6ANVPJ4958L1Z4</div>
+                <div class="small me-3"><span><i class="bi bi-building small"></i></span> Registered Office: Ritco
+                    Express Private Limited</div>
+                <div class="me-3 small"><a href="mailto:info@allindiashifting.com" class="text-dark"><span><i
+                                class="bi bi-envelope small"></i></span> info@allindiashifting.com</a></div>
+                <div class="me-3 small"><a href="tel:9070201040" class="text-dark"><span><i
+                                class="bi bi-telephone small"></i></span> 9070201040</a></div>
+
+                <!-- <span class="me-2">
+            <i class="bi bi-person small"></i>
+          </span>
+          <span class="me-3 small">India</span> -->
+
+            </div>
+            <div
+                class="col-md-3 col-12 text-md-end d-flex justify-content-md-end  align-items-center flex-wrap d-lg-block d-none">
+                <a href="#" class="btn btn-success me-2 mb-2 header-btn">₹ Pay Online !</a>
+                <a href="#" class="btn btn-info text-white me-2 mb-2 header-btn">Select Nearest Branch</a>
+            </div>
+        </div>
+        <!-- Nav links -->
+        <div class="row align-items-center d-lg-block d-none">
+            <div class="col d-flex flex-wrap align-items-center justify-content-center header-second-link">
+                <a href="#" class="me-3">Beware of Online Frauds</a>
+                <a href="#" class="me-3 ">Branch Address</a>
+                <a href="#" class="me-3">Request a Quote</a>
+                <a class="me-3">India Helpline +91 9070201040</a>
+                <a href="#" class="me-3">Become a Branch Partner</a>
+                <a class="text-danger">* Since <strong>2007</strong> at your service *</a>
+            </div>
+        </div>
+    </div>
+    <header class="border-bottom sticky-top">
+
+        <!-- Main branding/logo row -->
+        <div class="container-fluid bg-white">
+            <div class="row mt-2 align-items-center px-2">
+                <div class="col-lg-6 col-8 text-Start  mb-2 mb-md-0">
+                    <a href="index.html"><img src="assets/images/logos.png" alt="All India Shifting Logo" class=""
+                            style="max-height:80px;"></a>
+                </div>
+
+                <div class="col-lg-6 col-4 d-flex align-items-center justify-content-end">
+                    <a href="#" class="btn request-btn px-4 py-2 d-lg-block d-none" data-bs-toggle="modal"
+                        data-bs-target="#quoteModal">Request a Quote</a>
+                    <span class="ms-3 search-box-outer d-lg-block d-none">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    <span class="ms-2 menu-bar" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+            </div>
+            <!-- Menu Overlay Section -->
+            <div id="menuOverlay"
+                class="position-fixed top-0 start-0 w-100 h-100 d-none align-items-center justify-content-center"
+                style="z-index: 1050; background: rgba(0,0,0,0.4);">
+                <div class="container">
+                    <div class="row">
+                        <button type="button" class="btn btn-link text-end  mt-4 me-4 fs-4 text-white"
+                            onclick="closeMenu()">
+                            <i class="bi bi-x-lg"></i>
+                        </button>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-md-11">
+                            <div class="Menu-Section d-flex flex-wrap justify-content-between">
+                                <!-- Close Button -->
+
+                                <div class="row w-100">
+                                    <!-- Left Column -->
+                                    <div class="col-md-2 mb-4">
+                                        <h3 class="fw-bold mb-4"><a class="text-white" href="index.html">Home</a></h3>
+                                        <h4 class="fw-bold mb-4"><a class="text-white" href="contacts.html">Contact
+                                                Us</a></h4>
+                                        <h4 class="fw-bold mb-3"><i class="bi bi-search"></i> Search</h4>
+                                    </div>
+                                    <!-- Company Column -->
+                                    <div class="col-md-3 mb-4">
+                                        <h3 class="fw-bold mb-3 text-white">Company <i class="bi bi-chevron-down"></i>
+                                        </h3>
+                                        <ul class="list-unstyled">
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="mission-and-vision.html">Mission and Vision</a></li>
+                                            <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                                            <li><a href="iba-approved-packers-in-delhi.html">IBA Approved Packers</a>
+                                            </li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="awards-and-acheivements.html">Awards and Achievements</a></li>
+                                            <li><a href="careers.html">Careers</a></li>
+                                            <li><a href="Testimonials.html">Testimonials</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- Services Column -->
+                                    <div class="col-md-4 mb-4">
+                                        <h3 class="fw-bold mb-3 text-white">Services <i class="bi bi-chevron-down"></i>
+                                        </h3>
+                                        <ul class="list-unstyled">
+                                            <li><a href="home-shifting-in-delhi.html">Home Shifting Services</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">Office Shifting Services</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">Car Transportation Services</a>
+                                            </li>
+                                            <li><a href="home-shifting-in-delhi.html">Courier & Cargo Services</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">Luggage Delivery</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">Goods Insurance</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">IBA Approved Transporters</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">Loading and Unloading</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">Packing and Unpacking</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">Bill For Claim</a></li>
+                                            <li><a href="home-shifting-in-delhi.html">All India Services</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- Activities Column -->
+                                    <div class="col-md-3 mb-4">
+                                        <h3 class="fw-bold mb-3 text-white">Activities <i
+                                                class="bi bi-chevron-down"></i></h3>
+                                        <ul class="list-unstyled">
+                                            <li><a href="blog.html">Our Blog</a></li>
+                                            <li><a href="payment.html">Pay Online</a></li>
+                                            <li><a href="tracking.html">Track your Shipment</a></li>
+                                            <li><a href="franchise.html">Become a Partner</a></li>
+                                            <li><a href="packing-moving-tips.html">Moving Tips and Suggestions</a></li>
+                                            <li><a href="how-to-detect-fraud-packers.html">Detect Fraud Packers Tips</a>
+                                            </li>
+                                            <li><a href="gallery.html">Shipment Gallery</a></li>
+                                            <li><a href="video-gallery.html">Video Gallery</a></li>
+                                            <li><a href="reviews-feedbacks.html">Reviews & Feedbacks</a></li>
+                                            <li><a href="complaints.html">Submit a Complaint</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mb-3 text-white">Follow Us :</div>
+                                    <div class="d-flex gap-3 fs-2">
+                                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                                        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                                        <a href="#" class="text-white"><i class="bi bi-telegram"></i></a>
+                                        <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ===header-section-end=== -->
+    <!-- ===Hero-section-Start=== -->
+    <div class="container p-4">
+        <div class="about-hero-section position-relative d-flex align-items-center" style="min-height:300px;">
+            <img src="assets/images/f2.webp" width="100%" class="position-absolute w-100 h-100 object-fit-cover"
+                style="z-index:1; left:0; top:0; opacity:0.85;">
+            <div class="container position-relative" style="z-index:2;">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1 class=" text-white  mb-3" style="margin-top:40px;">Best Packers and Movers in Dwarka</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb d-flex justify-content-center fs-6">
+                                <li class="breadcrumb-item"><a href="#" class="text-white text-decoration-none">Home</a>
+                                </li>
+                                <li><i class="bi bi-chevron-right text-white mx-1 "></i></li>
+                                <li class="breadcrumb-item active text-white" aria-current="page">Best Packers and
+                                    Movers in Dwarka</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- Optional overlay for darker shade -->
+            <div class="position-absolute w-100 h-100 top-0 start-0" style="background: linear-gradient(
+    to top,
+    rgba(9, 65, 186, 1),
+    rgba(0, 0, 0, 0)
+);z-index:1;border-radius: 20px;"></div>
+        </div>
+    </div>
+    <!-- ===Hero-section-end=== -->
+    <!-- ===Form-section-Start=== -->
+    <section class="">
+        <div class="container py-3">
+
+            <form class="Form-Section">
+                <div class="row g-3">
+                    <!-- Moving From -->
+                    <div class="col-md-3 col-12">
+                        <label for="movingFrom" class="form-label">Moving From</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i
+                                    class="fas fa-map-marker-alt "></i></span>
+                            <input type="text" class="form-control border-start-0" id="movingFrom"
+                                placeholder="Enter city or address">
+                        </div>
+                    </div>
+                    <!-- Phone -->
+                    <div class="col-md-3 col-12">
+                        <label for="phone" class="form-label">Phone</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i class="fas fa-phone-alt"></i></span>
+                            <input type="tel" class="form-control border-start-0" id="phone"
+                                placeholder="Enter phone number">
+                        </div>
+                    </div>
+                    <!-- Moving Type -->
+                    <div class="col-md-3 col-12">
+                        <label for="movingType" class="form-label">Moving Type</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i
+                                    class="fas fa-truck-moving"></i></span>
+                            <select id="movingType" class="form-select border-start-0">
+                                <option value="">Select Moving Type</option>
+                                <option>Household</option>
+                                <option>Office</option>
+                                <option>Vehicle</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Services -->
+                    <div class="col-md-3 col-12">
+                        <label for="services" class="form-label">Select Services</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i class="fas fa-tools"></i></span>
+                            <select id="services" class="form-select border-start-0">
+                                <option value="">Select Service</option>
+                                <option>Packing</option>
+                                <option>Loading</option>
+                                <option>Transport</option>
+                                <option>Unloading</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Row -->
+                <div class="row g-3 mt-1 align-items-end">
+                    <!-- Moving To -->
+                    <div class="col-md-4 col-12">
+                        <label for="movingTo" class="form-label">Moving To</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i
+                                    class="fas fa-location-arrow"></i></span>
+                            <input type="text" class="form-control border-start-0" id="movingTo"
+                                placeholder="Destination city or address">
+                        </div>
+                    </div>
+                    <!-- Moving Time -->
+                    <div class="col-md-4 col-12">
+                        <label for="movingTime" class="form-label">Moving Time</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i class="fas fa-clock "></i></span>
+                            <select id="movingTime" class="form-select border-start-0">
+                                <option value="">Select Time</option>
+                                <option>Morning (7:00 - 11:00)</option>
+                                <option>Afternoon (12:00 - 16:00)</option>
+                                <option>Evening (17:00 - 20:00)</option>
+                                <option>Flexible</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="col-md-4 col-12 d-grid">
+                        <button type="submit" class="btn btn-submit py-2">
+                            <i class="fas fa-paper-plane me-2"></i>Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+
+    </section>
+    <!-- ===Form-section-end=== -->
+    <!-- ===Service-section-Start=== -->
+    <section>
+        <div class="container  About-Page-Section" id="faq">
+            <div class="main-heading">
+                <h2 class="">
+                    Best Packers and Movers <span style="color: #e31e25">in Dwarka</span>
+                </h2>
+                <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <p>Shifting home is one of the most significant events in your life. Hopefully, transporting
+                            your stuff
+                            safely and on time on a household moving day will be a straightforward experience with no
+                            hazards or
+                            issues.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14038.261115321493!2d76.96516990121569!3d28.402195331883114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d69104232ad%3A0x535e966ebe6baf65!2sDBS%20Packers%20%26%20Movers!5e0!3m2!1sen!2sin!4v1764135261969!5m2!1sen!2sin"
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- ===Service-section-end=== -->
+    <!-- ===Profile-section-Start=== -->
+    <section class="profile-section py-5 bg-white">
+        <div class="container">
+
+            <div class="row text-center justify-content-center align-items-center mt-4">
+                <!-- Image Gallery -->
+                <div class="col-md-4 col-6 mb-4 mb-md-0">
+                    <a href="gallery.html">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="bg-secondary rounded p-3 mb-2"
+                                style="width:80px; height:80px; display:flex; align-items:center; justify-content:center;">
+                                <i class="bi bi-image fs-1 text-white"></i>
+                            </div>
+                            <span class="fw-bold fs-4 text-dark">Image Gallery</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Video Gallery -->
+                <div class="col-md-4 col-6 mb-4 mb-md-0">
+                    <a href="video-gallery.html">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="bg-danger rounded p-3 mb-2"
+                                style="width:80px; height:80px; display:flex; align-items:center; justify-content:center;">
+                                <i class="bi bi-play-btn-fill fs-1 text-white"></i>
+                            </div>
+                            <span class="fw-bold fs-4 text-dark">Video Gallery</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Google Play App -->
+
+            </div>
+        </div>
+    </section>
+    <!-- ===Profile-section-end=== -->
+    <!-- ===City-Shifting -section-Start=== -->
+    <section>
+        <div class="container  About-Page-Section" id="faq">
+            <div class="row g-4 align-items-center mb-4">
+                <div class="col-lg-6">
+                    <div>
+                        <div class="main-heading">
+                            <h2>
+                            <a class="text-dark" href="home-shifting-in-delhi.html">  Home Shifting <span style="color: #e31e25">in Dwarka</span>
+                        </a>  
+                            </h2>
+                            <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+                        </div>
+                        <p>Shifting home is one of the most significant events in your life. Hopefully, transporting
+                            your stuff
+                            safely and on time on a household moving day will be a straightforward experience with no
+                            hazards or
+                            issues.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img src="assets/images/f2.webp" width="100%" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="row g-4 align-items-center mb-4">
+                <div class="col-lg-6 order-1 order-lg-0">
+                    <div>
+                        <img src="assets/images/f2.webp" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-0 order-lg-1">
+                    <div>
+                        <div class="main-heading">
+                            <h2 class="m-0">
+                                Car Transportation <span style="color: #e31e25">in Dwarka</span>
+                            </h2>
+                            <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+                        </div>
+                        <p>Shifting home is one of the most significant events in your life. Hopefully, transporting
+                            your stuff
+                            safely and on time on a household moving day will be a straightforward experience with no
+                            hazards or
+                            issues.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+
+                    </div>
+                </div>
+                    </div>
+                <div class="row g-4 align-items-center mb-4">
+                <div class="col-lg-6">
+                    <div>
+                        <div class="main-heading">
+                            <h2 class="m-0">
+                                Office Shifting <span style="color: #e31e25">in Dwarka</span>
+                            </h2>
+                            <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+                        </div>
+                        <p>Shifting home is one of the most significant events in your life. Hopefully, transporting
+                            your stuff
+                            safely and on time on a household moving day will be a straightforward experience with no
+                            hazards or
+                            issues.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img src="assets/images/f2.webp" width="100%" alt="">
+                    </div>
+                </div>
+                    </div>
+                <div class="row g-4 align-items-center mb-4">
+                <div class="col-lg-6 order-1 order-lg-0">
+                    <div>
+                        <img src="assets/images/f2.webp" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-0 order-lg-1">
+                    <div>
+                        <div class="main-heading">
+                            <h2 class="m-0">
+                                Storage Services <span style="color: #e31e25">in Dwarka</span>
+                            </h2>
+                            <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+                        </div>
+                        <p>Shifting home is one of the most significant events in your life. Hopefully, transporting
+                            your stuff
+                            safely and on time on a household moving day will be a straightforward experience with no
+                            hazards or
+                            issues.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+
+                    </div>
+                </div>
+                    </div>
+                <div class="row g-4 align-items-center mb-4">
+                <div class="col-lg-6">
+                    <div>
+                        <div class="main-heading">
+                            <h2 class="m-0">
+                                Domestic moving <span style="color: #e31e25">in Dwarka</span>
+                            </h2>
+                            <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+                        </div>
+                        <p>Shifting home is one of the most significant events in your life. Hopefully, transporting
+                            your stuff
+                            safely and on time on a household moving day will be a straightforward experience with no
+                            hazards or
+                            issues.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img src="assets/images/f2.webp" width="100%" alt="">
+                    </div>
+                </div>
+                    </div>
+                <div class="row g-4 align-items-center mb-4">
+                <div class="col-lg-6 order-1 order-lg-0">
+                    <div>
+                        <img src="assets/images/f2.webp" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-0 order-lg-1">
+                    <div>
+                        <div class="main-heading">
+                            <h2 class="">
+                                Loading And Unloading <span style="color: #e31e25">in Dwarka</span>
+                            </h2>
+                            <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+                        </div>
+                        <p>Shifting home is one of the most significant events in your life. Hopefully, transporting
+                            your stuff
+                            safely and on time on a household moving day will be a straightforward experience with no
+                            hazards or
+                            issues.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+                        <p>All you have to do is identify and engage a reliable household mover with established
+                            qualifications who
+                            can carefully and efficiently arrange your household possessions.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- ===City-Shifting-section-End=== -->
+    <!-- ===Approved-section-Start=== -->
+    <section class="Apporved-Section py-5 overflow-x-hidden">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-7">
+                    <div class="About-content text-lg-center  text-start">
+                        <h5 class="fw-bold">IBA Approved </h5>
+                        <h2 class="fw-bold display-4 mt-2 ">
+
+                        </h2>
+                        <h2 class="mb-1">
+                            Trusted & Verified <span style="color: #e31e25"> Moving Services</span>
+                        </h2>
+                        <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center align-items-center justify-content-center g-4">
+                <div class="col-md-3 col-6">
+                    <div class="single-feature-item">
+                        <div class="single-feature-thumb">
+                            <img src="assets/images/app-1.png" width="100%" alt="ISO Certified" class="mb-3" />
+                        </div>
+                        <h4 class="fw-bold mb-2">ISO 9001:2015</h4>
+                        <p class="mb-0">
+                            Certificate No: <span class="fw-bold">2713SAFV2021</span>, for
+                            Courier Services, Packers & Movers, Transportation and Storage
+                            of Goods.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="single-feature-item">
+                        <div class="single-feature-thumb">
+                            <img src="assets/images/app-2.png" width="100%" alt="5 Star Rating" class="mb-3" />
+                        </div>
+                        <h4 class="fw-bold mb-2">5 Star Ratings</h4>
+                        <p class="mb-0">
+                            We have been rated <span class="fw-bold">5 stars</span> by our
+                            valuable clients in multiple platforms like Google, Facebook
+                            etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="single-feature-item">
+                        <div class="single-feature-thumb">
+                            <img src="assets/images/treadlogo.png" width="100%" alt="Trademark Logo" class="mb-3" />
+                        </div>
+                        <h4 class="fw-bold mb-2">Registered Trademark</h4>
+                        <p class="mb-0">
+                            Certificate No <span class="fw-bold">4939471</span>, Our Logo is
+                            registered under the Trade Marks Act 1999, Section 23 (2), Rule
+                            56 (1).
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="single-feature-item">
+                        <div class="single-feature-thumb">
+                            <img src="assets/images/app-4.png" alt="Trusted Shield" class="mb-3"
+                                style="max-width: 170px" />
+                        </div>
+                        <h4 class="fw-bold mb-2">15+ Years of Trust</h4>
+                        <p class="mb-0">
+                            Since 2007, we are at your service expanding all over the
+                            country to be one of the best Packers and Movers company.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===Approved-section-end=== -->
+    <!-- ===Featured-section-Start=== -->
+    <section class="Featured-Section  overflow-x-hidden">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="">Featured On</h2>
+                <div style="
+              width: 72px;
+              height: 4px;
+              background: #ed223d;
+              margin: auto;
+              border-radius: 2px;
+            "></div>
+            </div>
+            <div class="row text-center justify-content-center g-4">
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/flipboard.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-1.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-2.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-3.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-4.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-5.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-6.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-7.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-8.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-9.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-11.png" alt="Flipboard" /></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div><img src="assets/images/f-10.png" alt="Flipboard" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===Featured-section-end=== -->
+    <!-- ===Support-section-Start=== -->
+    <section class="Support-Section py-5">
+        <div class="container About-Page-Section">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-7">
+                    <div class="About-content text-lg-center  text-start">
+                        <h5 class="fw-bold">Customer Support</h5>
+                        <h2 class="fw-bold display-4 mt-2 ">
+
+                        </h2>
+                        <h2 class="mb-1">
+                            Need Help? Get <span style="color: #e31e25"> 24/7 Support</span>
+                        </h2>
+                        <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center g-4">
+                <div class="col-lg-6">
+
+                    <p class="mb-4">
+                        Our customer support team is available around the clock to assist you with any inquiries or
+                        concerns you may have regarding our packing and moving services. Whether you need help with
+                        booking, tracking your shipment, or have questions about our services, we are here to provide
+                        prompt and reliable assistance.
+                    </p>
+
+                    <p class="mb-4">
+                        Our customer support team is available around the clock to assist you with any inquiries or
+                        concerns you may have regarding our packing and moving services. Whether you need help with
+                        booking, tracking your shipment, or have questions about our services, we are here to provide
+                        prompt and reliable assistance.
+                    </p>
+                    <h2 class="fw-bold" style="color: #e31e25;">Call:9070201040</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img src="assets/images/support.png" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===Support-section-end=== -->
+    <!-- ===Faq-section-Start=== -->
+    <section>
+        <div class="container p-4 About-Page-Section" id="faq">
+          <div class="row justify-content-center mb-4">
+                <div class="col-lg-7">
+                    <div class="About-content text-lg-center  text-start">
+                        <h5 class="fw-bold">Faq</h5>
+                        <h2 class="fw-bold display-4 mt-2 ">
+
+                        </h2>
+                        <h2 class="mb-1">
+                            Frequently<span style="color: #e31e25"> Asked Questions</span>
+                        </h2>
+                        <span style="
+              display: inline-block;
+              width: 70px;
+              height: 4px;
+              background: #e31e25;
+              border-radius: 2px;
+            "></span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <div class="accordion" id="faqAccordion">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="faq1-heading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq1" aria-expanded="true">
+                                What if it begins raining while you're transiting?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We take all necessary precautions in the event of adverse weather, such as rain, heat,
+                                and so on. For transportation, we use Sealed Weatherproof Closed Containers.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="faq2-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq2">
+                                What am I not permitted to bring with me when I relocate?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                It is your primary obligation to keep your valuable possessions safe and secure while
+                                relocating. As a result, when you decide to relocate, don't bring any legal paperwork
+                                with you.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="faq3-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq3">
+                                Will you pack our belongings for us?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                It is your primary obligation to keep your valuable possessions safe and secure while
+                                relocating. As a result, when you decide to relocate, don't bring any legal paperwork
+                                with you.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq4">
+                                What should I do with my precious items?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                When you move, All India Shifting and Movers recommends that you take small, high-value
+                                objects as well as items with sentimental or personal significance with you.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq5">
+                                Can you help us in making the transition as smooth as possible?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                Our company was created by a group of relocation industry professionals with years of
+                                experience. To handle the clearance and transportation of goods to numerous
+                                destinations, we have experts. We are IBA approved and ISO certified. So that you may
+                                rest easy knowing that your move will be stress-free.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq6">
+                                What should I do if my move date is postponed?
+                            </button>
+                        </h2>
+                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                Please get in touch with our team as soon as possible. We can go over the relocation
+                                details and set a new date. Keep in mind that based on the new moving dates you choose,
+                                your estimate may change.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq7">
+                                When the packer or mover comes to my house what should I expect first?
+                            </button>
+                        </h2>
+                        <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                When a mover arrives at your home, To prepare a moving quote, they will need to see
+                                everything that is being transported.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 8 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq8">
+                                What makes All India Shifting and Movers the best option for me?
+                            </button>
+                        </h2>
+                        <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                For packing, unpacking, loading, unloading, and transportation, All India Shifting and
+                                Movers has a well-trained workforce. All India Shifting and Movers uses high-quality
+                                packaging materials and containers to ensure that the products being transferred are
+                                protected.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 9 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq9">
+                                There are numerous Service Providers on the market. When I can approach All India
+                                Shifting and movers directly, why should I use them?
+                            </button>
+                        </h2>
+                        <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                All India Shifting and Movers is one-stop packers and movers where you can get services
+                                from the most specialized service in the area with only a few clicks of a button. It
+                                provides market information as well as various quotations from various Packers and
+                                Movers, allowing you to compare and study everything in one place and make an informed
+                                decision without incurring any costs. We have a strong network that consists of licensed
+                                specialized professional firms.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 10 -->
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq10">
+                                Is it possible for me to schedule service at a time that is convenient for me? Is there
+                                a special price for that?
+                            </button>
+                        </h2>
+                        <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                You certainly can. There is a special price for this. However, you must allow enough
+                                time for us to plan the service to provide you with a top-notch experience.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 11 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq11">
+                                How to Contact All India Shifting?
+                            </button>
+                        </h2>
+                        <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                You can reach us by calling
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===Faq-section-end=== -->
+    <!-- ===Service-City-section-Start=== -->
+    <section class="service-city-section py-4">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-start gap-3">
+                <div class="service-box ">
+                    Car Transportation in Dwarka
+                </div>
+                <div class="service-box ">
+                    Office Shifting in Dwarka
+                </div>
+                <div class="service-box">
+                    IBA Approved Transporter in Dwarka
+                </div>
+                <div class="service-box">
+                    IBA Approved Packers in Dwarka
+                </div>
+                <div class="service-box">
+                    Loading and Unloading in Dwarka
+                </div>
+                <div class="service-box">
+                    Packing and Unpacking in Dwarka
+                </div>
+                <div class="service-box">
+                    Bill For Claim in Dwarka
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===Service-City-section-end=== -->
+    <!-- ===Service-section-Start=== -->
+    <section class="mt-5" style="background-color: #0941BA;">
+        <div class="container">
+            <div class="row g-4 justify-content-center text-center">
+                <!-- Safe & Secure Card -->
+                <div class="col-md-4 my-5">
+                    <div class="h-100 shifting-card text-white  rounded shadow-lg p-4">
+                        <div class="mb-3">
+                            <i class="bi bi-shield fa-3x"></i>
+                        </div>
+                        <h4 class="fw-semibold">Safe & Secure</h4>
+                        <p class="mb-0">
+                            You benefit from our experience in delivering effective solutions to the complex
+                            global
+                            supply chains of some of the world’s biggest corporations.
+                        </p>
+                    </div>
+                </div>
+                <!-- Fast Delivery Card -->
+                <div class="col-md-4 my-5">
+                    <div class="h-100 shifting-card text-white  rounded shadow-lg p-4">
+                        <div class="mb-3">
+                            <i class="bi bi-truck fa-3x"></i>
+                        </div>
+                        <h4 class="fw-semibold">Fast Delivery</h4>
+                        <p class="mb-0">
+                            You benefit from every innovation, whether it involves a simple extension to our
+                            Air and
+                            Ocean Freight products, whether it means a development in warehousing.
+                        </p>
+                    </div>
+                </div>
+                <!-- 24/7 Support Card -->
+                <div class="col-md-4 my-5">
+                    <div class="h-100 shifting-card text-white  rounded shadow-lg p-4">
+                        <div class="mb-3">
+                            <i class="bi bi-headset fa-3x"></i>
+                        </div>
+                        <h4 class="fw-semibold">24/7 Support</h4>
+                        <p class="mb-0">
+                            All of which explains why you’ll find the team of outstanding support at
+                            TransCargo ready to
+                            apply their passion for solutions in support of your business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ===Service-section-end=== -->
+    <!-- ===Footer-section-Start=== -->
+    <footer class="Footer-Section text-white pt-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-md-4 col-lg-3">
+                    <img src="assets/images/logos.png" class="footer-logo" alt="">
+                    <p class="mb-3" style="font-size:1rem;">
+                        Since 2007, as a leading moving company, we have been an ISO 9001:2015 and ISO
+                        39001:2012
+                        certified, IBA
+                        approved Packers and Movers company, promising and delivering throughout India. All
+                        India
+                        Customer Support
+                    </p>
+                    <div class="footer-phone h4 mb-3">+91 9070201040</div>
+                    <div class="mb-3">Follow Us :</div>
+                    <div class="d-flex gap-3 fs-2">
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-telegram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4 col-lg-3">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="footer-links list-unstyled mb-0">
+                        <li>Company History</li>
+                        <li>Awards & Achievements</li>
+                        <li>Clients Reviews</li>
+                        <li>Frequently Asked Questions</li>
+                        <li>Why Choose Us</li>
+                        <li><span class="text-warning fw-bold">Submit a Complaint</span></li>
+                    </ul>
+                    <div class="mt-4">
+                        <img src="google-play-badge.png" alt="Get it on Google Play" style="height:54px;">
+                    </div>
+                </div>
+                <!-- Services -->
+                <div class="col-md-4 col-lg-3">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <ul class="footer-links list-unstyled mb-0">
+                        <li>Domestic Relocation</li>
+                        <li>Corporate Moving</li>
+                        <li>Vehicle Transportations</li>
+                        <li>Courier Cargo Services <span class="fs-6">Within Delhi</span></li>
+                        <li>Luggage Delivery <span class="fs-6">Within Delhi</span></li>
+                    </ul>
+                    <div class="mt-4">
+                        <div class="mb-1">We accept payments by:</div>
+                        <img src="assets/images/pay.png" alt="Payments" style="height:32px;">
+                    </div>
+                </div>
+                <!-- Express Your Concerns -->
+                <div class="col-md-12 col-lg-3 text-lg-start">
+                    <h5 class="fw-bold mb-3">Express Your Concerns</h5>
+                    <div class="mb-2"><b>Email:</b> info@allindiashifting.com</div>
+                    <div class="mb-3">Website: allindiashifting.com</div>
+                    <div class="mb-3">
+                        <img class="" src="assets/images/feedback.png" alt="Feedback Complaints"
+                            style="max-width:220px;">
+                    </div>
+                    <a href="#" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold"><i
+                            class="bi bi-geo-alt-fill me-2"></i>View all Offices</a>
+                </div>
+            </div>
+            <hr style="border-color:#f0f0f044; margin:36px 0 12px;">
+
+        </div>
+        <div class="Bottom-Footer-Section pt-4 pb-0">
+            <div class="container-fluid px-4">
+                <div class="row text-white mb-0">
+                    <div class="col-md-3 col-6 mb-3">
+                        <div>Packers & Movers in India</div>
+                        <div>Packers & Movers in Rohtak</div>
+                        <div>Packers & Movers in Panipat</div>
+                        <div>Packers & Movers in Jind and Karnal</div>
+                        <div>Packers & Movers in Gautam Budh Nagar</div>
+                        <div>Packers & Movers in Shamli</div>
+                        <div>Packers & Movers in Agra</div>
+                        <div>Packers & Movers in Bangalore</div>
+                        <div>Packers & Movers in Chandigarh</div>
+                        <div>Packers & Movers in Guwahati</div>
+                        <div>Packers & Movers in Jabalpur</div>
+                        <div>Packers & Movers in Kolkata</div>
+                        <div>Packers & Movers in Mumbai</div>
+                        <div>Packers & Movers in Pune</div>
+                        <div>Packers & Movers in Vapi</div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div>Packers & Movers in Faridabad</div>
+                        <div>Packers & Movers in Sonepat</div>
+                        <div>Packers & Movers in Palwal</div>
+                        <div>Packers & Movers in Noida</div>
+                        <div>Packers & Movers in Bulandshahr</div>
+                        <div>Packers & Movers in Muzaffarnagar</div>
+                        <div>Packers & Movers in Ahmedabad</div>
+                        <div>Packers & Movers in Bhatinda</div>
+                        <div>Packers & Movers in Chennai</div>
+                        <div>Packers & Movers in Gwalior</div>
+                        <div>Packers & Movers in Jaipur</div>
+                        <div>Packers & Movers in Lucknow</div>
+                        <div>Packers & Movers in Nagpur</div>
+                        <div>Packers & Movers in Ranchi</div>
+                        <div>Packers & Movers in Varanasi</div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div>Packers & Movers in Gurgaon</div>
+                        <div>Packers & Movers in Rewari</div>
+                        <div>Packers & Movers in Bhiwani</div>
+                        <div>Packers & Movers in Meerut</div>
+                        <div>Packers & Movers in Baghpat</div>
+                        <div>Packers & Movers in Alwar</div>
+                        <div>Packers & Movers in Aligarh</div>
+                        <div>Packers & Movers in Bhopal</div>
+                        <div>Packers & Movers in Dehradun</div>
+                        <div>Packers & Movers in Hyderabad</div>
+                        <div>Packers & Movers in Jalandhar</div>
+                        <div>Packers & Movers in Ludhiana</div>
+                        <div>Packers & Movers in Nashik</div>
+                        <div>Packers & Movers in Srinagar</div>
+                        <div>Packers & Movers in Vijayawada</div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div>Packers & Movers in Mewat</div>
+                        <div>Packers & Movers in Jhajjar</div>
+                        <div>Packers & Movers in Mahendragarh</div>
+                        <div>Packers & Movers in Ghaziabad</div>
+                        <div>Packers & Movers in Hapur</div>
+                        <div>Packers & Movers in Bharatpur</div>
+                        <div>Packers & Movers in Allahabad</div>
+                        <div>Packers & Movers in Bhubaneswar</div>
+                        <div>Packers & Movers in Greater-Noida</div>
+                        <div>Packers & Movers in Indore</div>
+                        <div>Packers & Movers in Kanpur</div>
+                        <div>Packers & Movers in Meerut</div>
+                        <div>Packers & Movers in Patna</div>
+                        <div>Packers & Movers in Surat</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar bg-dark px-4">
+                <div class="container-fluid">
+                    <div class="row py-2 align-items-center">
+                        <div class="col-md-8 text-white fw-semibold">
+                            All India Shifting © 2025
+                        </div>
+                        <div class="col-md-4 text-end">
+                            <a href="#" class="text-white text-decoration-none mx-2">About Us</a>
+                            <a href="#" class="text-white text-decoration-none mx-2">Privacy Policy</a>
+                            <a href="#" class="text-white text-decoration-none mx-2">Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+        </section>
+        <!-- ===Support-section-End=== -->
+    </footer>
+    <!-- ===Footer-section-end=== -->
+    <div class="what">
+        <a href="https://api.whatsapp.com/send?phone=867&text=hello" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="tel:+91 1" style="background-color: #0941BA">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- ===Script-Section=== -->
+
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script>
+        // agar aap want to reference instance later (for sync), use variable
+        window.wow = new WOW({
+            animateClass: 'animate__animated',
+            offset: 120,
+            mobile: true
+        });
+        window.wow.init();
+    </script>
+    <!-- ===Script-Section=== -->
+</body>
+
+</html>

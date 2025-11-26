@@ -19,28 +19,31 @@
 
 <body>
   <!-- ===header-section-start=== -->
-     <div class="container-fluid px-lg-5 "style="background-color: #f3f3f3;">
+  <header class="border-bottom" style="background-color: #f3f3f3;">
+    <div class="container-fluid px-5 d-lg-block d-none">
       <!-- Top row: Contact and actions -->
       <div class="row align-items-center ">
-        <div class="col-md-9 col-12 d-flex align-items-center justify-content-center flex-wrap  mb-md-0">
-            <div class="small me-2"><span><i class="bi bi-file-earmark-text"></i></span> GST REGD No: O6ANVPJ4958L1Z4</div>
-          <div class="small me-3"><span><i class="bi bi-building small"></i></span> Registered Office: Ritco Express Private Limited</div>
-          <div class="me-3 small"><a href="mailto:info@allindiashifting.com" class="text-dark"><span><i class="bi bi-envelope small"></i></span> info@allindiashifting.com</a></div>
-         <div class="me-3 small"><a href="tel:9070201040" class="text-dark"><span><i class="bi bi-telephone small"></i></span> 9070201040</a></div>
-       
-          <!-- <span class="me-2">
+        <div class="col-md-4 col-12 d-flex align-items-center mb-2 mb-md-0">
+          <span class="me-2">
+            <i class="bi bi-envelope small"></i>
+          </span>
+          <span class="me-3 small">info@allindiashifting.com</span>
+          <span class="me-2">
             <i class="bi bi-person small"></i>
           </span>
-          <span class="me-3 small">India</span> -->
-          
+          <span class="me-3 small">India</span>
         </div>
-        <div class="col-md-3 col-12 text-md-end d-flex justify-content-md-end  align-items-center flex-wrap d-lg-block d-none">
+        <div class="col-md-8 col-12 text-md-end d-flex justify-content-md-end  align-items-center flex-wrap">
           <a href="#" class="btn btn-success me-2 mb-2 header-btn">₹ Pay Online !</a>
           <a href="#" class="btn btn-info text-white me-2 mb-2 header-btn">Select Nearest Branch</a>
-           </div>
+          <span class="me-2 mb-2">
+            <i class="bi bi-telephone small"></i>
+          </span>
+          <span class="fw-bold me-3 mb-2 small">9070201040</span>
+        </div>
       </div>
       <!-- Nav links -->
-      <div class="row align-items-center d-lg-block d-none">
+      <div class="row align-items-center">
         <div class="col d-flex flex-wrap align-items-center justify-content-center header-second-link">
           <a href="#" class="me-3">Beware of Online Frauds</a>
           <a href="#" class="me-3 ">Branch Address</a>
@@ -51,18 +54,15 @@
         </div>
       </div>
     </div>
-  <header class="border-bottom sticky-top">
-  
     <!-- Main branding/logo row -->
-     <div class="container-fluid bg-white">
+    <div class="container-fluid bg-white ">
       <div class="row mt-2 align-items-center px-2">
         <div class="col-lg-6 col-8 text-Start  mb-2 mb-md-0">
-          <a href="index.html"><img src="assets/images/logos.png" alt="All India Shifting Logo" class=""
-              style="max-height:80px;"></a>
+          <a href="index.html"><img src="assets/images/logos.png" alt=" All India Shifting  Logo" class="" style="max-height:80px;"></a>
         </div>
 
         <div class="col-lg-6 col-4 d-flex align-items-center justify-content-end">
-          <a href="#" class="btn request-btn px-4 py-2 d-lg-block d-none" data-bs-toggle="modal" data-bs-target="#quoteModal">Request a Quote</a>
+          <a href="#" class="btn btn-danger px-4 py-2 d-lg-block d-none">Request a Quote</a>
           <span class="ms-3 search-box-outer d-lg-block d-none">
             <i class="fas fa-search"></i>
           </span>
@@ -88,7 +88,7 @@
 
                 <div class="row w-100">
                   <!-- Left Column -->
-                  <div class="col-md-2 mb-4">
+                  <div class="col-md-3 mb-4">
                     <h3 class="fw-bold mb-4"><a class="text-white" href="index.html">Home</a></h3>
                     <h4 class="fw-bold mb-4"><a class="text-white" href="contacts.html">Contact Us</a></h4>
                     <h4 class="fw-bold mb-3"><i class="bi bi-search"></i> Search</h4>
@@ -108,7 +108,7 @@
                     </ul>
                   </div>
                   <!-- Services Column -->
-                  <div class="col-md-4 mb-4">
+                  <div class="col-md-3 mb-4">
                     <h3 class="fw-bold mb-3 text-white">Services <i class="bi bi-chevron-down"></i></h3>
                     <ul class="list-unstyled">
                       <li><a href="home-shifting-in-delhi.html">Home Shifting Services</a></li>
@@ -118,10 +118,10 @@
                       <li><a href="home-shifting-in-delhi.html">Luggage Delivery</a></li>
                       <li><a href="home-shifting-in-delhi.html">Goods Insurance</a></li>
                       <li><a href="home-shifting-in-delhi.html">IBA Approved Transporters</a></li>
-                      <li><a href="home-shifting-in-delhi.html">Loading and Unloading</a></li>
-                      <li><a href="home-shifting-in-delhi.html">Packing and Unpacking</a></li>
-                      <li><a href="home-shifting-in-delhi.html">Bill For Claim</a></li>
-                      <li><a href="home-shifting-in-delhi.html">All India Services</a></li>
+                       <li><a href="home-shifting-in-delhi.html">Loading and Unloading</a></li>
+                        <li><a href="home-shifting-in-delhi.html">Packing and Unpacking</a></li>
+                         <li><a href="home-shifting-in-delhi.html">Bill For Claim</a></li>
+                          <li><a href="home-shifting-in-delhi.html">All India Services</a></li>
                     </ul>
                   </div>
                   <!-- Activities Column -->
@@ -138,20 +138,20 @@
                       <li><a href="video-gallery.html">Video Gallery</a></li>
                       <li><a href="reviews-feedbacks.html">Reviews & Feedbacks</a></li>
                       <li><a href="complaints.html">Submit a Complaint</a></li>
-
+                    
                     </ul>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="mb-3 text-white">Follow Us :</div>
-                  <div class="d-flex gap-3 fs-2">
-                    <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="text-white"><i class="bi bi-telegram"></i></a>
-                    <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
-                  </div>
+                   <div class="mb-3 text-white">Follow Us :</div>
+          <div class="d-flex gap-3 fs-2">
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-telegram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+          </div>
                 </div>
               </div>
             </div>
@@ -163,13 +163,12 @@
   <!-- ===header-section-end=== -->
 
   <!-- ===Hero-section-start=== -->
-  <section class="hero-section overflow-x-hidden">
+  <section class="hero-section">
     <div class="slick-slider hero-slider">
       <!-- Slide 1 -->
       <div class="hero-slide position-relative">
-        <img src="assets/images/f2.webp" class="hero-bg-img w-100" alt="Hero BG" />
-        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
-          style="z-index: 2;">
+        <img src="assets/images/hero.jpg" class="hero-bg-img w-100" alt="Hero BG" />
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-lg-10 hero-overlay">
@@ -178,7 +177,7 @@
                 </span>
 
                 <h1 class="wow animate__animated animate__fadeInDown hero-title" data-wow-delay="0.3s">
-                  All India Shifting
+                 All India Shifting
                 </h1>
 
                 <p class="wow animate__animated animate__fadeInDown hero-desc" data-wow-delay="0.5s">
@@ -198,9 +197,8 @@
       </div>
       <!-- Slide 2 -->
       <div class="hero-slide position-relative">
-        <img src="assets/images/f2.webp" class="hero-bg-img w-100" alt="Hero BG" />
-        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
-          style="z-index: 2;">
+        <img src="assets/images/hero-2.jpg" class="hero-bg-img w-100" alt="Hero BG" />
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-lg-10 hero-overlay">
@@ -231,73 +229,83 @@
   <!-- ===Hero-section-end=== -->
   <!-- ===Shifting-Types-section-Start=== -->
   <section class="Why-Choose-Section py-lg-5 pt-0">
-    <section class="Shifting-Types mb-5">
-      <div class="container">
+    <section class="Shifting-Types mb-5 wow animate__fadeInUp " data-wow-duration=".1s" data-wow-delay="0">
+      <div class="container-fluid">
         <div class="row g-4 justify-content-center text-center text-lg-start">
           <!-- Domestic Shifting Card -->
-          <div class="col-md-3 my-5">
-            <div class="  h-100 shifting-card text-white">
-              <div class="mb-2">
-                <img src="assets/images/timing.png" style="width: 70px" alt="Home Icon" />
+          <div class="col-md-4 my-5">
+            <div class="bg-white shadow rounded-4 p-4 h-100 shifting-card">
+              <div class="row">
+                <div class="col-lg-3 single-feature-box-two">
+                  <div class="text-center">
+                    <img src="assets/images/type.png" style="width: 60px" alt="Home Icon" />
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h2 class="h3 fw-bold mb-3 text-dark">Domestic Shifting</h2>
+                  <p class="mb-0 text-dark">
+                    Transporting your stuff safely and on time on a
+                    <span class="fw-bold">household moving</span> day will be
+                    a straight-forward and delightful experience.
+                  </p>
+                </div>
               </div>
-              <h4 class=" fw-semibold">Reliable Delivery Timing</h4>
-              <p class="mb-0 ">
-                We prioritize accurate scheduling, consistent updates, and reliable arrival windows so you’re never left
-                wondering when help arrives.
-              </p>
-
             </div>
           </div>
-          <div class="col-md-3 my-5">
-            <div class="  h-100 shifting-card text-white">
-              <div class="mb-2">
-                <img src="assets/images/handle-with-care.png" style="width: 70px" alt="Home Icon" />
+          <!-- Corporate Shifting Card -->
+          <div class="col-md-4 my-5">
+            <div class="bg-white shadow rounded-4 p-4 h-100 shifting-card">
+              <div class="row">
+                <div class="col-lg-3 single-feature-box-two">
+                  <div class="text-center">
+                    <img src="assets/images/type-2.png" style="width: 60px" alt="Home Icon" />
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h2 class="h3 fw-bold mb-3 text-dark">
+                    Corporate Shifting
+                  </h2>
+                  <p class="mb-0 text-dark">
+                    Moving an office can be a costly and time-consuming
+                    procedure.All India Shifting makes it a
+                    <span class="fw-bold">easy and comfortable journey</span>
+                  </p>
+                </div>
               </div>
-              <h4 class=" fw-semibold">Damage Protection Focus</h4>
-              <p class="mb-0 ">
-                Every item is wrapped, padded, secured, and handled with the same care as if it was our own personal
-                property. </p>
-
             </div>
           </div>
-          <div class="col-md-3 my-5">
-            <div class="  h-100 shifting-card text-white">
-              <div class="mb-2">
-                <img src="assets/images/best-price.png" style="width: 70px" alt="Home Icon" />
+          <!-- Car Carriers Card -->
+          <div class="col-md-4 my-5">
+            <div class="bg-white shadow rounded-4 p-4 h-100 shifting-card">
+              <div class="row">
+                <div class="col-lg-3 single-feature-box-two">
+                  <div class="text-center">
+                    <img src="assets/images/type-3.png" style="width: 60px" alt="Home Icon" />
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h2 class="h3 fw-bold mb-3 text-dark">Car Carriers</h2>
+                  <p class="mb-0 text-dark">
+                   All India Shifting is your one-stop shop for everything
+                    you need to know about
+                    <span class="fw-bold">car relocation services in India</span>
+                  </p>
+                </div>
               </div>
-              <h4 class=" fw-semibold">Transparent Pricing</h4>
-              <p class="mb-0 ">
-                Simple flat rates with zero hidden fees. You always know what you pay, why you pay it, and how the costs
-                breakdown. </p>
-
             </div>
           </div>
-          <div class="col-md-3 my-5">
-            <div class="  h-100 shifting-card text-white">
-              <div class="mb-2">
-                <img src="assets/images/timing.png" style="width: 70px" alt="Home Icon" />
-              </div>
-              <h4 class=" fw-semibold">Professional Crew Training</h4>
-              <p class="mb-0 ">
-                Every mover is trained on safety lifting technique, workflow efficiency, client respect, and problem
-                solving on-site. </p>
-
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
     <!-- ===Shifting-Types-section-end=== -->
     <!-- ===Why-Choose-section-Start=== -->
-    <section style="z-index: 1; position: relative;" class="Why-Choose overflow-x-hidden">
+    <section style="z-index: 1; position: relative;" class="Why-Choose">
       <div class="container">
-        <div class="row g-4 align-items-start">
+        <div class="row g-4">
           <!-- Left: Truck & Crew Image -->
-          <div class="col-lg-5 mb-4 mb-lg-0 wow animate__animated animate__fadeInLeft sticky-lg-top "
-            data-wow-delay="0.1s">
+          <div class="col-lg-5 mb-4 mb-lg-0 wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
             <div class="">
-              <img src="assets/images/s10.webp" alt="All India Shifting Team" width="100%" class="" />
+              <img src="assets/images/ompackers14.jpeg" alt=" All India Shifting  Team" width="100" class="" />
             </div>
           </div>
           <!-- Right: Text + Highlights -->
@@ -305,81 +313,38 @@
             <div class="Why-Choose-Content">
               <h5 class="fw-bold mb-2">ISO 9001:2015 CERTIFIED COMPANY</h5>
               <h2 class="fw-bold display-5 text-dark mb-2">
-                All India Shifting <span class="fw-bold mb-3 display-6 text-danger">
-                  WHY US?</span>
-                </span>
+               All India Shifting
               </h2>
-
+              <h3 class="fw-bold mb-3 display-6">
+                WHY <span class="text-danger">US?</span>
+              </h3>
               <p class="fs-5 text-dark mb-4">
                 ChooseAll India Shifting as your
                 <span class="fw-bold">relocation partner</span> to reduce all
                 your stress and hassle of shifting to another city or moving
-                locally. All India Shifting will assure the safety of your goods and
+                locally.  All India Shifting  will assure the safety of your goods and
                 valuable items.
               </p>
-              <div class="mb-3">
-                <div class="accordion why-accordion" id="whyAccordion">
-
-                  <div class="accordion-item border-0">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button text-white" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#whyContent" aria-expanded="true" aria-controls="whyContent"
-                        style="background-color: #0941BA;">
-                        Why Choose Us?
-                      </button>
-                    </h2>
-
-                    <div id="whyContent" class="accordion-collapse collapse show">
-                      <div class="accordion-body p-2">
-
-                        <div class="d-flex gap-3 mb-3">
-                          <span class="why-icon"><i class="far fa-check-circle"></i></span>
-                          <span class="fs-5 text-dark">
-                            We are known for our timely delivery and efficient
-                            <span class="fw-bold">best packing and moving services.</span>
-                          </span>
-                        </div>
-
-                        <div class="d-flex gap-3 mb-3">
-                          <span class="why-icon"><i class="far fa-check-circle"></i></span>
-                          <span class="fs-5 text-dark">
-                            With over <span class="fw-bold">15 years of experience</span>,
-                            we make it easy for you to trust our services.
-                          </span>
-                        </div>
-
-                        <div class="d-flex gap-3 mb-3">
-                          <span class="why-icon"><i class="far fa-check-circle"></i></span>
-                          <span class="fs-5 text-dark">
-                            We provide <span class="fw-bold">safe and secure packaging</span> to ensure damage-free
-                            shifting.
-                          </span>
-                        </div>
-
-                        <div class="d-flex gap-3">
-                          <span class="why-icon"><i class="far fa-check-circle"></i></span>
-                          <span class="fs-5 text-dark">
-                            Our team offers <span class="fw-bold">24/7 customer support</span> for a hassle-free moving
-                            experience.
-                          </span>
-                        </div>
-
-                      </div>
-
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="mt-4">
-                  <a class="why-choose-btn">Why Choose All Packers Shifting? <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-
             </div>
-
-
+            <div class="bg-white rounded-4 shadow-sm p-4 mb-3" style="border-bottom: 2px solid #ff3b00">
+              <div class="d-flex gap-3 mb-3">
+                <span class="why-icon"><i class="far fa-check-circle"></i>
+                </span>
+                <span class="fs-5 text-dark">We are known for our timely delivery and efficient
+                  <span class="fw-bold">best packing and moving services.</span></span>
+              </div>
+              <div class="d-flex gap-3">
+                <span class="why-icon"><i class="far fa-check-circle"></i>
+                </span>
+                <span class="fs-5 text-dark">With over
+                  <span class="fw-bold">15 years of experience</span>, we make
+                  it easy for you to trust our services.</span>
+              </div>
+            </div>
+            <div>
+              <a class="why-choose-btn">Why Choose  All India Shifting ? <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -387,259 +352,230 @@
   </section>
   <!-- ===Why-Choose-section-end=== -->
   <!-- ===Iba-Approved-section-Start=== -->
-  <section class="Iba-Approved py-4 overflow-x-hidden">
+  <section class="Iba-Approved py-4">
     <div class="container">
-           <div class="row justify-content-center">
-        <div class="col-lg-10">
-          <div class="About-content text-lg-center  text-start wow animate__animated animate__fadeInUp " data-wow-delay="0.1s">
-            <h5 class="fw-bold">IBA Code: GZO-2596</h5>
-            <h2 class="fw-bold display-4 mt-2 ">
-
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-7 wow animate__animated animate__fadeInRight" data-wow-delay="0s">
+          <!-- Top Section: IBA Code & Description -->
+          <div class="Iba-Sec-first">
+            <span class="iba-code fw-bold text-danger" style="font-size: 2.2rem">IBA Code: GZO-2596</span>
+            <h2 class="fw-bold text-dark mb-3" style="font-size: 2.4rem">
+              IBA Approved Packers And Movers
             </h2>
-            <h2 class="mb-1">
-             IBA Approved <span style="color: #e31e25"> Packers And Movers</span>
-            </h2>
-            <span style="
-              display: inline-block;
-              width: 70px;
-              height: 4px;
-              background: #e31e25;
-              border-radius: 2px;
-            "></span>
-            <p class="mb-4 fs-5">
-                 All India Shifting is a trusted <span class="fw-bold">IBA-approved</span>  packers and
-              movers company committed to <span class="fw-bold">providing safe and reliable
-              relocation services </span>across India. With a professional team and
+            <p class="fs-5 text-dark mb-0">
+             All India Shifting is a trusted IBA-approved packers and
+              movers company committed to providing safe and reliable
+              relocation services across India. With a professional team and
               modern infrastructure, we ensure hassle-free home, office, and
               vehicle shifting.
-             
             </p>
+            <span class="iba-dot-bg position-absolute top-0 end-0 translate-middle-y"></span>
+          </div>
+
+          <!-- Lower Section: Key Features -->
+          <div class="iba-features">
+            <!-- Feature 1 -->
+            <div class="d-flex gap-3 mb-3">
+              <span class="iba-icon">
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+              </span>
+              <span class="content-inner">
+                <span class="fw-bold">No. 1 IBA Approved Company:</span>
+                Choosing a Top IBA approved mover ensures complete trust and
+                accountability — all services meet strict quality and safety
+                standards recognized by India’s leading banks and financial
+                institutions.
+              </span>
+            </div>
+            <!-- Feature 2 -->
+            <div class="d-flex gap-3">
+              <span class="iba-icon">
+                <i class="fa fa-inr" aria-hidden="true"></i>
+              </span>
+              <span class="content-inner">
+                <span class="fw-bold">Transparent & Competitive Pricing:</span>
+                We offer fair, industry-standard pricing with no hidden
+                charges, giving you the best value for your relocation budget.
+              </span>
+            </div>
+          </div>
+
+          <div class="about-btn mt-5">
+            <a href="https://www.iba.org.in/supplementary-services/transport-operators-search-form.html" target="_blank"
+              class="verify-btn" onclick="copyAndRedirect(event, 'GZO-2596', this.href)">
+              Click to Verify <i class="fas fa-arrow-right"></i>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="row g-4 justify-content-center">
-        <div class="col-lg-12 wow animate__animated animate__fadeInRight" data-wow-delay="0s">
-          <!-- Top Section: IBA Code & Description -->
-        
-          <!-- Lower Section: Key Features -->
-        <div class="row iba-features g-4">
-  
-  <div class="col-lg-4">
-    <!-- Feature 1 -->
-    <div class="iba-feature-item">
-      <div class="iba-icon">
-       <img src="assets/images/trophy.gif" width="100%" alt="">
-      </div>
-      <span class="content-inner">
-        <h5 class="fw-bold">No. 1 IBA Approved Company</h5>
-        <p>Choosing a Top IBA approved mover ensures complete trust and
-          accountability — all services meet strict quality and safety
-          standards.</p>
-      </span>
-    </div>
-  </div>
-
-  <div class="col-lg-4">
-    <!-- Feature 2 -->
-    <div class="iba-feature-item">
-      <div class="iba-icon">
-       <img src="assets/images/rupee.gif" alt="">
-      </div>
-      <span class="content-inner">
-        <h5 class="fw-bold">Transparent & Competitive Pricing</h5>
-        <p>We offer fair, industry-standard pricing with no hidden
-          charges, giving you the best value for your relocation budget.</p>
-      </span>
-    </div>
-  </div>
-
-  <div class="col-lg-4">
-    <!-- Feature 3 (New Card) -->
-    <div class="iba-feature-item">
-      <div class="iba-icon">
-       <img src="assets/images/delivery-truck.gif" alt="">
-      </div>
-      <span class="content-inner">
-        <h5 class="fw-bold">Fast & Safe Transportation</h5>
-        <p>We ensure quick pickup, secure loading, and timely delivery with
-          well-maintained vehicles and trained professionals.</p>
-      </span>
-    </div>
-  </div>
-
-  <!-- <div class="about-btn mt-5">
-    <a href="https://www.iba.org.in/supplementary-services/transport-operators-search-form.html"
-      target="_blank" class="verify-btn"
-      onclick="copyAndRedirect(event, 'GZO-2596', this.href)">
-      Click to Verify <i class="fas fa-arrow-right"></i>
-    </a>
-  </div> -->
-
-</div>
-
-
-
+        <div class="col-lg-5 wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
+          <video width="300" controls="" loop="" autoplay="" muted="">
+            <source src="assets/images/verify_iba.mp4" loading="lazy" type="video/mp4">
+          </video>
         </div>
-       
       </div>
     </div>
   </section>
   <!-- ===Iba-Approved-section-end=== -->
-  <!-- ===Service-section-start=== -->
-  <section class="About-Section py-5 overflow-x-hidden">
+  <!-- ===Approved-section-Start=== -->
+  <section class="Apporved-Section py-5">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="About-content text-lg-center  text-start  wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-            <h5 class="fw-bold">All India Shifting</h5>
-            <h2 class="fw-bold display-4 mt-2 ">
-
+      <div class="row text-center align-items-center justify-content-center g-4">
+        <div class="col-md-3 col-6">
+          <div class="single-feature-item">
+            <div class="single-feature-thumb">
+              <img src="assets/images/app-1.png" alt="ISO Certified" class="mb-3" />
+            </div>
+            <h4 class="fw-bold mb-2">ISO 9001:2015</h4>
+            <p class="mb-0">
+              Certificate No: <span class="fw-bold">2713SAFV2021</span>, for
+              Courier Services, Packers & Movers, Transportation and Storage
+              of Goods.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="single-feature-item">
+            <div class="single-feature-thumb">
+              <img src="assets/images/app-2.png" alt="5 Star Rating" class="mb-3" style="max-width: 170px" />
+            </div>
+            <h4 class="fw-bold mb-2">5 Star Ratings</h4>
+            <p class="mb-0">
+              We have been rated <span class="fw-bold">5 stars</span> by our
+              valuable clients in multiple platforms like Google, Facebook
+              etc.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="single-feature-item">
+            <div class="single-feature-thumb">
+              <img src="assets/images/app-3.png" alt="Trademark Logo" class="mb-3" style="max-width: 170px" />
+            </div>
+            <h4 class="fw-bold mb-2">Registered Trademark</h4>
+            <p class="mb-0">
+              Certificate No <span class="fw-bold">4939471</span>, Our Logo is
+              registered under the Trade Marks Act 1999, Section 23 (2), Rule
+              56 (1).
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="single-feature-item">
+            <div class="single-feature-thumb">
+              <img src="assets/images/app-4.png" alt="Trusted Shield" class="mb-3" style="max-width: 170px" />
+            </div>
+            <h4 class="fw-bold mb-2">15+ Years of Trust</h4>
+            <p class="mb-0">
+              Since 2007, we are at your service expanding all over the
+              country to be one of the best Packers and Movers company.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===Approved-section-end=== -->
+  <!-- ===About-section-start=== -->
+  <section class="About-Section py-5">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <!-- Left Content -->
+        <div class="col-lg-7">
+          <div class="About-content  wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <h5> All India Shifting  AND MOVERS</h5>
+            <h2 class="fw-bold display-4 mt-2 mb-3">
+              Best Packers And Movers Services
             </h2>
-            <h2 class="mb-1">
-              Best Packers And <span style="color: #e31e25"> Movers Services</span>
-            </h2>
-            <span style="
-              display: inline-block;
-              width: 70px;
-              height: 4px;
-              background: #e31e25;
-              border-radius: 2px;
-            "></span>
-            <p class="mb-4 fs-5">
+            <div class="about-underline mb-4"></div>
+            <p class="mb-4">
               Since <span class="fw-bold">2007</span>, We are among the
               <span class="fw-bold">best packers and movers in delhi</span>,
               expanding all over the country to be one of the
               <span class="fw-bold">largest moving company.</span>
             </p>
           </div>
-        </div>
-      </div>
-      <div class="row align-items-center gy-4">
-        <!-- Left Content -->
-        <!-- Services Grid -->
-        <div class="row g-3">
-          <div class="col-sm-4">
-            <div class="service-card d-flex align-items-start wow animate__animated animate__fadeInLeft"
-              data-wow-delay="0.2s">
-              <div class="About-icon-box text-white">
-                <i class="bi bi-house-door-fill"></i>
-              </div>
-              <div class="ms-3">
-                <h5 class="">Home Relocation</h5>
-                <p>“We provide smooth home shifting services with safe packing, careful handling and timely delivery.”
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service-card d-flex align-items-start wow animate__animated animate__fadeInLeft"
-              data-wow-delay="0.3s">
-              <div class="About-icon-box text-white">
-                <i class="bi bi-building-fill"></i>
-              </div>
-              <div class="ms-3">
-                <h5 class="">Office Relocation</h5>
-                <p>“Our expert team ensures secure office shifting with minimal downtime and organized movement.”</p>
-              </div>
 
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service-card d-flex align-items-start wow animate__animated animate__fadeInLeft"
-              data-wow-delay="0.4s">
-              <div class="About-icon-box text-white">
-                <i class="bi bi-truck-front-fill"></i>
-              </div>
-              <div class="ms-3">
-                <h5 class="">Car Transportation</h5>
-                <p>“Your car is transported safely using specialized carriers ensuring damage-free and on-time
-                  delivery.”</p>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service-card d-flex align-items-start wow animate__animated animate__fadeInLeft"
-              data-wow-delay="0.5s">
-              <div class="About-icon-box text-white">
-                <i class="bi bi-box-seam-fill"></i>
-              </div>
-              <div class="ms-3">
-                <h5 class="">Courier &amp; Cargo Services</h5>
-                <p>“We offer fast courier and cargo solutions with reliable handling and timely nationwide delivery.”
-                </p>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service-card d-flex align-items-start wow animate__animated animate__fadeInLeft"
-              data-wow-delay="0.6s">
-              <div class="About-icon-box text-white">
-                <i class="bi bi-suitcase-lg-fill"></i>
-              </div>
-              <div class="ms-3">
-                <h5 class="">Luggage Delivery</h5>
-                <p>“We manage quick luggage delivery services with careful packaging and secure doorstep
-                  transportation.”</p>
+          <!-- Services Grid -->
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.2s">
+                <div class="About-icon-box text-white">
+                  <i class="bi bi-house-door-fill"></i>
+                </div>
+                <h5 class="ms-3">Home Relocation</h5>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service-card d-flex align-items-start wow animate__animated animate__fadeInLeft"
-              data-wow-delay="0.7s">
-              <div class="About-icon-box text-white">
-                <i class="bi bi-shield-fill-check"></i>
+            <div class="col-sm-6">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.3s">
+                <div class="About-icon-box text-white">
+                  <i class="bi bi-building-fill"></i>
+                </div>
+                <h5 class="ms-3">Office Relocation</h5>
               </div>
-              <div class="ms-3">
-                <h5 class="">Goods Insurance</h5>
-                <p>“Our goods insurance protection covers your items from accidental damage during the entire transit.”
-                </p>
+            </div>
+            <div class="col-sm-6">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.4s">
+                <div class="About-icon-box text-white">
+                  <i class="bi bi-truck-front-fill"></i>
+                </div>
+                <h5 class="ms-3">Car Transportation</h5>
               </div>
-
+            </div>
+            <div class="col-sm-6">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.5s">
+                <div class="About-icon-box text-white">
+                  <i class="bi bi-box-seam-fill"></i>
+                </div>
+                <h5 class="ms-3">Courier &amp; Cargo Services</h5>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.6s">
+                <div class="About-icon-box text-white">
+                  <i class="bi bi-suitcase-lg-fill"></i>
+                </div>
+                <h5 class="ms-3">Luggage Delivery</h5>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="service-card d-flex align-items-center wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.7s">
+                <div class="About-icon-box text-white">
+                  <i class="bi bi-shield-fill-check"></i>
+                </div>
+                <h5 class="ms-3">Goods Insurance</h5>
+              </div>
             </div>
           </div>
         </div>
-
+        <!-- Right Logo -->
+        <div class="col-lg-5 text-center">
+          <div class="pulselogo">
+            <img src="assets/images/ompackers.png" alt=" All India Shifting  and Movers Logo" class="about-logo-img" />
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- ===Service-section-end=== -->
+
+  <!-- ===About-section-end=== -->
   <!-- ===State-section-Start=== -->
-  <section class="State-Section py-4 overflow-x-hidden">
+  <section class="State-Section py-4">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-7">
-          <div class="About-content text-lg-center  text-start mb-4  wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-            <h5 class="fw-bold">Our Branch Network</h5>
-            <h2 class="fw-bold display-4 mt-2 ">
-
-            </h2>
-            <h2 class="mb-1">
-              Trusted <span style="color: #e31e25"> Packers & Movers Branches</span>
-            </h2>
-            <span style="
-              display: inline-block;
-              width: 70px;
-              height: 4px;
-              background: #e31e25;
-              border-radius: 2px;
-            "></span>
-
-          </div>
-        </div>
-      </div>
       <div class="row g-4">
         <div class="col-6 col-sm-6 col-lg-3">
-          <a href="state.html">
-            <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+          <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
             <div class="state-img-container">
               <img src="assets/images/delhi.jpg" class="state-img" alt="New Delhi" />
               <img src="assets/images/map.png" alt="Google Map" class="google-icon" />
             </div>
-            <h4 class="p-2 fw-bold text-dark">New Delhi</h4>
+            <h4 class="p-2 fw-bold">New Delhi</h4>
           </div>
-          </a>
         </div>
         <div class="col-6 col-sm-6 col-lg-3">
           <div class="state-card wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
@@ -749,92 +685,12 @@
     </div>
   </section>
   <!-- ===State-section-end=== -->
-  <!-- ===Approved-section-Start=== -->
-  <section class="Apporved-Section py-5 overflow-x-hidden">
-    <div class="container">
-      <div class="row justify-content-center mb-4">
-        <div class="col-lg-7">
-          <div class="About-content text-lg-center  text-start  wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-            <h5 class="fw-bold">IBA Approved </h5>
-            <h2 class="fw-bold display-4 mt-2 ">
-
-            </h2>
-            <h2 class="mb-1">
-              Trusted & Verified <span style="color: #e31e25"> Moving Services</span>
-            </h2>
-            <span style="
-              display: inline-block;
-              width: 70px;
-              height: 4px;
-              background: #e31e25;
-              border-radius: 2px;
-            "></span>
-
-          </div>
-        </div>
-      </div>
-      <div class="row text-center align-items-center justify-content-center g-4">
-        <div class="col-md-3 col-6">
-          <div class="single-feature-item">
-            <div class="single-feature-thumb">
-              <img src="assets/images/app-1.png" width="100%" alt="ISO Certified" class="mb-3" />
-            </div>
-            <h4 class="fw-bold mb-2">ISO 9001:2015</h4>
-            <p class="mb-0">
-              Certificate No: <span class="fw-bold">2713SAFV2021</span>, for
-              Courier Services, Packers & Movers, Transportation and Storage
-              of Goods.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="single-feature-item">
-            <div class="single-feature-thumb">
-              <img src="assets/images/app-2.png" width="100%" alt="5 Star Rating" class="mb-3" />
-            </div>
-            <h4 class="fw-bold mb-2">5 Star Ratings</h4>
-            <p class="mb-0">
-              We have been rated <span class="fw-bold">5 stars</span> by our
-              valuable clients in multiple platforms like Google, Facebook
-              etc.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="single-feature-item">
-            <div class="single-feature-thumb">
-              <img src="assets/images/treadlogo.png" width="100%" alt="Trademark Logo" class="mb-3"  />
-            </div>
-            <h4 class="fw-bold mb-2">Registered Trademark</h4>
-            <p class="mb-0">
-              Certificate No <span class="fw-bold">4939471</span>, Our Logo is
-              registered under the Trade Marks Act 1999, Section 23 (2), Rule
-              56 (1).
-            </p>
-          </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="single-feature-item">
-            <div class="single-feature-thumb">
-              <img src="assets/images/app-4.png" alt="Trusted Shield" class="mb-3" style="max-width: 170px" />
-            </div>
-            <h4 class="fw-bold mb-2">15+ Years of Trust</h4>
-            <p class="mb-0">
-              Since 2007, we are at your service expanding all over the
-              country to be one of the best Packers and Movers company.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ===Approved-section-end=== -->
   <!-- ===Process-section-Start=== -->
-  <section class="Process-Section py-5 overflow-x-hidden">
-    <div class="container p-4">
-      <div class="Process-Section text-lg-center  text-start mb-5">
-        <h5 class="fw-bold mb-2">How We Work</h5>
-        <h2 class="mb-1 ">
+  <section class="Process-Section py-5">
+    <div class="container">
+      <div class="Process-Section mb-5">
+        <h5 class="mb-2">HOW WE WORK</h5>
+        <h2 class="mb-1">
           Check Out Our <span style="color: #e31e25">Shifting Process</span>
         </h2>
         <span style="
@@ -845,106 +701,60 @@
               border-radius: 2px;
             "></span>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center g-4">
         <!-- Step 1 -->
-        <div class="col-12 col-md-6 col-lg-6 text-center wow animate__animated animate__fadeInDown"
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
           data-wow-delay="0.1s">
-          <div class="row align-items-center process-row">
-            <div class="col-lg-6 col-4 p-0">
-              <div class="process-card position-relative">
-                <img src="assets/images/s10.webp" class="" width="100%" alt="Assign us Service" />
-                <div class="process-circle position-absolute">01</div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-8">
-              <div class="text-start text-white p-lg-3 p-0">
-
-                <h4 class="fw-bold mt-4 mb-2">Assign us Service</h4>
-                <p>
-                  After you are satisfied with our quotation, you book our service
-                </p>
-              </div>
-            </div>
+          <div class="process-card position-relative">
+            <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow" alt="Assign us Service" />
+            <div class="process-circle position-absolute">01</div>
           </div>
-
+          <h4 class="fw-bold mt-4 mb-2">Assign us Service</h4>
+          <p>
+            After you are satisfied with our quotation, you book our service
+          </p>
         </div>
         <!-- Step 2 -->
-        <div class="col-12 col-md-6 col-lg-6 text-center wow animate__animated animate__fadeInDown"
-          data-wow-delay="0.1s">
-          <div class="row align-items-center process-row ">
-            <div class="col-lg-6 col-4 p-0">
-              <div class="process-card position-relative">
-                <img src="assets/images/s11.webp" class="" width="100%" alt="Assign us Service" />
-                <div class="process-circle position-absolute">02</div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-8">
-              <div class="text-start text-white p-lg-3 p-0">
-
-                <h4 class="fw-bold mt-4 mb-2">Packing and Loading</h4>
-                <p>
-                  We will pack all your goods and load it in our vehicle safely
-                </p>
-              </div>
-            </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.2s">
+          <div class="process-card position-relative">
+            <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow"
+              alt="Packing and Loading" />
+            <div class="process-circle position-absolute">02</div>
           </div>
-
+          <h4 class="fw-bold mt-4 mb-2">Packing and Loading</h4>
+          <p>We will pack all your goods and load it in our vehicle safely</p>
         </div>
-
         <!-- Step 3 -->
-        <div class="col-12 col-md-6 col-lg-6 text-center wow animate__animated animate__fadeInDown"
-          data-wow-delay="0.1s">
-          <div class="row align-items-center process-row">
-
-            <div class="col-lg-6 col-8 order-1 order-lg-0">
-              <div class="text-start text-white p-lg-3 p-0">
-
-                <h4 class="fw-bold mt-4 mb-2">Transportation Service</h4>
-                <p>
-                  Our Vehicle will deliver your goods to your destination
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6 col-4 p-0 order-0 order-lg-1">
-              <div class="process-card position-relative">
-                <img src="assets/images/s13.webp" class="" width="100%" alt="Assign us Service" />
-                <div class="process-circle position-absolute">03</div>
-              </div>
-            </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.3s">
+          <div class="process-card position-relative">
+            <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow"
+              alt="Transportation Service" />
+            <div class="process-circle position-absolute">03</div>
           </div>
-
+          <h4 class="fw-bold mt-4 mb-2">Transportation Service</h4>
+          <p>Our Vehicle will deliver your goods to your destination</p>
         </div>
-
         <!-- Step 4 -->
-        <div class="col-12 col-md-6 col-lg-6 text-center wow animate__animated animate__fadeInDown"
-          data-wow-delay="0.1s">
-          <div class="row align-items-center process-row">
-
-            <div class="col-lg-6 col-8 order-1 order-lg-0">
-              <div class="text-start text-white p-lg-3 p-0">
-
-                <h4 class="fw-bold mt-4 mb-2">Unloading and Unpacking</h4>
-                <p>
-                  We will unload the goods and safely relocate in your destination
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6 col-4 p-0 order-0 order-lg-1">
-              <div class="process-card position-relative">
-                <img src="assets/images/s12.webp" class="" width="100%" alt="Assign us Service" />
-                <div class="process-circle position-absolute">04</div>
-              </div>
-            </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center wow animate__animated animate__fadeInDown"
+          data-wow-delay="0.4s">
+          <div class="process-card position-relative">
+            <img src="assets/images/ompackers14.jpeg" class="img-fluid rounded-circle shadow"
+              alt="Unloading and Unpacking" />
+            <div class="process-circle position-absolute">04</div>
           </div>
-
+          <h4 class="fw-bold mt-4 mb-2">Unloading and Unpacking</h4>
+          <p>
+            We will unload the goods and safely relocate in your destination
+          </p>
         </div>
-
       </div>
     </div>
   </section>
   <!-- ===Process-section-end=== -->
   <!-- ===Counter-section-Start=== -->
-  <section class="Counter-Section py-5 overflow-x-hidden">
+  <section class="Counter-Section py-5">
     <div class="container-fluid">
       <div class="container">
         <div class="row text-center justify-content-center">
@@ -971,7 +781,7 @@
 
   <!-- ===Counter-section-end=== -->
   <!-- ===Featured-section-Start=== -->
-  <section class="Featured-Section py-5 overflow-x-hidden">
+  <section class="Featured-Section py-5">
     <div class="container">
       <div class="text-center mb-4">
         <h2 class="">Featured On</h2>
@@ -1025,20 +835,18 @@
   </section>
   <!-- ===Featured-section-end=== -->
   <!-- ===Blog-section-Start=== -->
-  <section class="Blog-Section py-4 overflow-x-hidden">
+  <section class="Blog-Section py-4">
     <div class="container">
-      <div class="text-lg-center  text-start mb-4">
-        <h5 class="mb-2 fw-bold">Our Blogs</h5>
-        <h2 class="mb-1 ">
-          Resources & <span style="color: #e31e25">Latest News</span>
-        </h2>
-        <span style="
-              display: inline-block;
-              width: 70px;
+      <div class="text-center mb-4">
+        <h5 class="mb-2">// Our Blogs</h5>
+        <h2 class="">Resources & Latest News</h2>
+        <div style="
+              width: 72px;
               height: 4px;
-              background: #e31e25;
+              background: #ed223d;
+              margin: auto;
               border-radius: 2px;
-            "></span>
+            "></div>
       </div>
       <div class="row g-4">
         <div class="blog-slider">
@@ -1053,7 +861,7 @@
               </div>
               <div class="card-body">
                 <small class="text-muted d-block mb-2">
-                  All India Shifting - 14/03/2024
+                 All India Shifting - 14/03/2024
                 </small>
                 <h5 class="card-title fw-bold mb-2">
                   Guaranteed Scam Free Moving Experience
@@ -1076,7 +884,7 @@
               </div>
               <div class="card-body">
                 <small class="text-muted d-block mb-2">
-                  All India Shifting - 13/03/2024
+                   All India Shifting  - 13/03/2024
                 </small>
                 <h5 class="card-title fw-bold mb-2">
                   Insurance Coverage Benefits of Professional Moving
@@ -1099,7 +907,7 @@
               </div>
               <div class="card-body">
                 <small class="text-muted d-block mb-2">
-                  All India Shifting - 13/03/2024
+                   All India Shifting  - 13/03/2024
                 </small>
                 <h5 class="card-title fw-bold mb-2">
                   Top Advantages of Hiring Professional Movers Packers
@@ -1122,7 +930,7 @@
               </div>
               <div class="card-body">
                 <small class="text-muted d-block mb-2">
-                  All India Shifting - 13/03/2024
+                   All India Shifting  - 13/03/2024
                 </small>
                 <h5 class="card-title fw-bold mb-2">
                   Top Advantages of Hiring Professional Movers Packers
@@ -1142,27 +950,23 @@
   </section>
   <!-- ===Blog-section-end=== -->
   <!-- ===Testimonials-section-Start=== -->
-  <section class="Testimonials-Section py-4 overflow-x-hidden">
+  <section class="Testimonials-Section py-4">
     <div class="container">
-      <div class="text-lg-center  text-start">
-        <h5 class="mb-2 fw-bold text-white">Client Testimonial</h5>
-        <h2 class="text-white">
-          What Our<span style="color: #e31e25"> Client Say?</span>
-        </h2>
-        <span style="
-              display: inline-block;
-              width: 70px;
-              height: 4px;
-              background: #e31e25;
-              border-radius: 2px;
-            "></span>
+      <div class="text-center mb-5">
+        <span class="text-danger fw-bold" style="letter-spacing:1px;">CLIENT TESTIMONIAL</span>
+        <h2 class="fw-bold display-5 mt-2">What Our Client Say?</h2>
       </div>
       <div class="row justify-content-center g-4">
         <div class="testi-slider">
           <div>
-            <div class="card  border-0 position-relative testimonial-card h-100">
-              <div class="card-body text-center">
-          
+            <div class="card shadow border-0 position-relative testimonial-card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
+                    style="width:64px;height:64px;">
+                  <span class="fw-bold fs-5">Rohit Kumar</span>
+                  <span class="ms-2 text-muted">Businessman</span>
+                </div>
                 <p class="testimonial-text">
                   I simply wanted to let you know that my packages have arrived. Thank you very much for your
                   assistance;
@@ -1172,15 +976,7 @@
                   was excellent and seamless. The packing was done professionally. Everything arrived in good order and
                   was undamaged.
                 </p>
-                      <div class=" mb-3">
-                 <div class="d-flex justify-content-center">
-                   <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
-                    style="width:64px;height:64px;">
-                 </div>
-                  <span class="fw-bold fs-5 text-white">Rohit Kumar</span>
-                 
-                </div>
-                <div class="">
+                <div class="mt-3">
                   <span class="text-danger fs-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -1190,13 +986,18 @@
                   </span>
                 </div>
               </div>
-            
+              <span class="testimonial-quote text-danger">&#10077;</span>
             </div>
           </div>
           <div>
-              <div class="card  border-0 position-relative testimonial-card h-100">
-              <div class="card-body text-center">
-          
+            <div class="card shadow border-0 position-relative testimonial-card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
+                    style="width:64px;height:64px;">
+                  <span class="fw-bold fs-5">Rohit Kumar</span>
+                  <span class="ms-2 text-muted">Businessman</span>
+                </div>
                 <p class="testimonial-text">
                   I simply wanted to let you know that my packages have arrived. Thank you very much for your
                   assistance;
@@ -1206,15 +1007,7 @@
                   was excellent and seamless. The packing was done professionally. Everything arrived in good order and
                   was undamaged.
                 </p>
-                      <div class=" mb-3">
-                 <div class="d-flex justify-content-center">
-                   <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
-                    style="width:64px;height:64px;">
-                 </div>
-                  <span class="fw-bold fs-5 text-white">Rohit Kumar</span>
-                 
-                </div>
-                <div class="">
+                <div class="mt-3">
                   <span class="text-danger fs-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -1224,13 +1017,18 @@
                   </span>
                 </div>
               </div>
-            
+              <span class="testimonial-quote text-danger">&#10077;</span>
             </div>
           </div>
           <div>
-             <div class="card  border-0 position-relative testimonial-card h-100">
-              <div class="card-body text-center">
-          
+            <div class="card shadow border-0 position-relative testimonial-card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
+                    style="width:64px;height:64px;">
+                  <span class="fw-bold fs-5">Rohit Kumar</span>
+                  <span class="ms-2 text-muted">Businessman</span>
+                </div>
                 <p class="testimonial-text">
                   I simply wanted to let you know that my packages have arrived. Thank you very much for your
                   assistance;
@@ -1240,15 +1038,7 @@
                   was excellent and seamless. The packing was done professionally. Everything arrived in good order and
                   was undamaged.
                 </p>
-                      <div class=" mb-3">
-                 <div class="d-flex justify-content-center">
-                   <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
-                    style="width:64px;height:64px;">
-                 </div>
-                  <span class="fw-bold fs-5 text-white">Rohit Kumar</span>
-                 
-                </div>
-                <div class="">
+                <div class="mt-3">
                   <span class="text-danger fs-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -1258,13 +1048,18 @@
                   </span>
                 </div>
               </div>
-            
+              <span class="testimonial-quote text-danger">&#10077;</span>
             </div>
           </div>
           <div>
-             <div class="card  border-0 position-relative testimonial-card h-100">
-              <div class="card-body text-center">
-          
+            <div class="card shadow border-0 position-relative testimonial-card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
+                    style="width:64px;height:64px;">
+                  <span class="fw-bold fs-5">Rohit Kumar</span>
+                  <span class="ms-2 text-muted">Businessman</span>
+                </div>
                 <p class="testimonial-text">
                   I simply wanted to let you know that my packages have arrived. Thank you very much for your
                   assistance;
@@ -1274,15 +1069,7 @@
                   was excellent and seamless. The packing was done professionally. Everything arrived in good order and
                   was undamaged.
                 </p>
-                      <div class=" mb-3">
-                 <div class="d-flex justify-content-center">
-                   <img src="assets/images/user.png" alt="Rohit Kumar" class="rounded-circle me-3"
-                    style="width:64px;height:64px;">
-                 </div>
-                  <span class="fw-bold fs-5 text-white">Rohit Kumar</span>
-                 
-                </div>
-                <div class="">
+                <div class="mt-3">
                   <span class="text-danger fs-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -1292,7 +1079,7 @@
                   </span>
                 </div>
               </div>
-            
+              <span class="testimonial-quote text-danger">&#10077;</span>
             </div>
           </div>
         </div>
@@ -1302,120 +1089,13 @@
   </section>
 
   <!-- ===Testimonials-section-end=== -->
-   <!-- ===Quote Modal-section-Start=== -->
-<div class="modal fade" id="quoteModal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <form class="Form-Section p-3">
-        <div class="modal-header">
-          <h5 class="modal-title fw-bold">
-            Request Quote
-          </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body">
-          <div class="row g-3">
-            <!-- Moving From -->
-            <div class="col-md-6 col-12">
-              <label for="movingFrom" class="form-label">Moving From</label>
-              <div class="input-group">
-                <span class="input-group-text bg-white border-end-0">
-                  <i class="fas fa-map-marker-alt"></i>
-                </span>
-                <input type="text" class="form-control border-start-0" id="movingFrom" placeholder="Enter city or address">
-              </div>
-            </div>
-                   <!-- Moving To -->
-            <div class="col-md-6 col-12">
-              <label for="movingTo" class="form-label">Moving To</label>
-              <div class="input-group">
-                <span class="input-group-text bg-white border-end-0">
-                  <i class="fas fa-location-arrow"></i>
-                </span>
-                <input type="text" class="form-control border-start-0" id="movingTo" placeholder="Destination city or address">
-              </div>
-            </div>
-         
-            <!-- Moving Type -->
-            <div class="col-md-6 col-12">
-              <label for="movingType" class="form-label">Moving Type</label>
-              <div class="input-group">
-                <span class="input-group-text bg-white border-end-0">
-                  <i class="fas fa-truck-moving"></i>
-                </span>
-                <select id="movingType" class="form-select border-start-0">
-                  <option value="">Select Moving Type</option>
-                  <option>Household</option>
-                  <option>Office</option>
-                  <option>Vehicle</option>
-                  <option>Others</option>
-                </select>
-              </div>
-            </div>
-            <!-- Services -->
-            <div class="col-md-6 col-12">
-              <label for="services" class="form-label">Select Services</label>
-              <div class="input-group">
-                <span class="input-group-text bg-white border-end-0">
-                  <i class="fas fa-tools"></i>
-                </span>
-                <select id="services" class="form-select border-start-0">
-                  <option value="">Select Service</option>
-                  <option>Packing</option>
-                  <option>Loading</option>
-                  <option>Transport</option>
-                  <option>Unloading</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="row g-3 mt-1 align-items-end">
-        <!-- Phone -->
-            <div class="col-md-6 col-12">
-              <label for="phone" class="form-label">Phone</label>
-              <div class="input-group">
-                <span class="input-group-text bg-white border-end-0">
-                  <i class="fas fa-phone-alt"></i>
-                </span>
-                <input type="tel" class="form-control border-start-0" id="phone" placeholder="Enter phone number">
-              </div>
-            </div>
-            <!-- Moving Time -->
-            <div class="col-md-6 col-12">
-              <label for="movingTime" class="form-label">Moving Time</label>
-              <div class="input-group">
-                <span class="input-group-text bg-white border-end-0">
-                  <i class="fas fa-clock"></i>
-                </span>
-                <select id="movingTime" class="form-select border-start-0">
-                  <option value="">Select Time</option>
-                  <option>Morning (7:00 - 11:00)</option>
-                  <option>Afternoon (12:00 - 16:00)</option>
-                  <option>Evening (17:00 - 20:00)</option>
-                  <option>Flexible</option>
-                </select>
-              </div>
-            </div>
-            <!-- Submit Button -->
-            <div class="col-md-12 col-12 d-grid">
-              <button type="submit" class="btn btn-submit py-2">
-                <i class="fas fa-paper-plane me-2"></i>Submit
-              </button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
- <!-- ===Quote Modal-section-End=== -->
   <!-- ===Footer-section-Start=== -->
   <footer class="Footer-Section text-white pt-5">
     <div class="container">
       <div class="row g-4">
         <!-- Company Info -->
         <div class="col-md-4 col-lg-3">
-          <img src="assets/images/logos.png" class="footer-logo" alt="">
+          <h5 class="fw-bold mb-3"> All India Shifting  AND MOVERS</h5>
           <p class="mb-3" style="font-size:1rem;">
             Since 2007, as a leading moving company, we have been an ISO 9001:2015 and ISO 39001:2012 certified, IBA
             approved Packers and Movers company, promising and delivering throughout India. All India Customer Support
@@ -1458,14 +1138,14 @@
           </ul>
           <div class="mt-4">
             <div class="mb-1">We accept payments by:</div>
-            <img src="assets/images/pay.png" alt="Payments" style="height:32px;">
+            <img src="assets/images/payment.png" alt="Payments" style="height:32px;">
           </div>
         </div>
         <!-- Express Your Concerns -->
-        <div class="col-md-12 col-lg-3 text-lg-start">
+        <div class="col-md-12 col-lg-3 text-lg-center">
           <h5 class="fw-bold mb-3">Express Your Concerns</h5>
-          <div class="mb-2"><b>Email:</b> info@allindiashifting.com</div>
-          <div class="mb-3">Website: allindiashifting.com</div>
+          <div class="mb-2"><b>Email:</b> info@ompackersindia.com</div>
+          <div class="mb-3">Website: ompackersindia.com</div>
           <div class="mb-3">
             <img class="" src="assets/images/feedback.png" alt="Feedback Complaints" style="max-width:220px;">
           </div>
@@ -1552,7 +1232,7 @@
         <div class="container-fluid">
           <div class="row py-2 align-items-center">
             <div class="col-md-8 text-white fw-semibold">
-              All India Shifting © 2025
+             All India Shifting © 2025
             </div>
             <div class="col-md-4 text-end">
               <a href="#" class="text-white text-decoration-none mx-2">About Us</a>
@@ -1571,7 +1251,7 @@
     <a href="https://api.whatsapp.com/send?phone=867&text=hello" target="_blank">
       <i class="fa-brands fa-whatsapp"></i>
     </a>
-    <a href="tel:+91 1" style="background-color: #0941BA">
+    <a href="tel:+91 1" style="background-color: #e31e25">
       <i class="fa-solid fa-phone"></i>
     </a>
   </div>
@@ -1584,7 +1264,6 @@
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
 
   <script>
     // agar aap want to reference instance later (for sync), use variable
