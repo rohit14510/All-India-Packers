@@ -135,12 +135,13 @@ h2 {
 /*---Header-Section-Start----*/
 
 .header-btn {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 2px 5px;
+  padding: 5px 8px;
+  background-color: #e31e25;
 }
-header .btn-info {
-  background-color: #19c6d7;
+.header.btn-info {
+  background-color: #e31e25 !important;
   border-color: #19c6d7;
 }
 header .btn-success {
@@ -165,6 +166,7 @@ header .btn-danger {
 .request-btn {
   border: 1px solid #0941ba;
   color: #0941ba !important;
+  font-weight: 600;
 }
 .menu-bar i {
   font-size: 30px;
@@ -199,7 +201,12 @@ header .btn-danger {
 body.menu-open {
   overflow: hidden;
 }
-
+.header-navbar .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0941BA !important;
+  margin-right: 20px;
+}
 /*---Header-Section-End----*/
 /*---Hero-Section-Start----*/
 .hero-section {
@@ -318,7 +325,7 @@ body.menu-open {
   margin-bottom: 30px;
 }
 .Why-Choose-Content h5 {
-  color: #0941ba;
+  color: #e31e25;
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 600;
@@ -460,7 +467,7 @@ body.menu-open {
 .About-content h5 {
   font-size: 16px;
   font-weight: 600;
-  color: #0941ba;
+  color: #e31e25;
 }
 .About-content h2 {
   text-transform: capitalize;
@@ -768,7 +775,7 @@ body.menu-open {
 .Blog-Section h5 {
   font-size: 16px;
   font-weight: 600;
-  color: #0941ba;
+  color: #e31e25;
 }
 .Blog-Section h2 {
   text-transform: capitalize;
